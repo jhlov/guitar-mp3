@@ -3,7 +3,7 @@ import { LoadingLayer } from "components/LoadingLayer";
 import { ToastLayer } from "components/ToastLayer";
 import { SampleA } from "pages/SampleA";
 import { SampleB } from "pages/SampleB";
-import { Link, Redirect, Route } from "react-router-dom";
+import { Link, Redirect, Route, Switch } from "react-router-dom";
 import "./App.scss";
 
 function App() {
@@ -23,11 +23,14 @@ function App() {
         </div>
 
         {/* todo */}
-        <Route path="/" exact>
-          <Redirect to="/app" />
-        </Route>
-        <Route path="/a" component={SampleA} />
-        <Route path="/b" component={SampleB} />
+        <Switch>
+          <Route path="/" exact>
+            <Redirect to="/app" />
+          </Route>
+          <Route path="/a" component={SampleA} />
+          <Route path="/b" component={SampleB} />
+        </Switch>
+
         {/* <Route path="/app" component={app} /> */}
         <LoadingLayer />
         <ToastLayer />
