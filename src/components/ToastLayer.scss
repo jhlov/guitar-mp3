@@ -1,0 +1,10 @@
+.toast-layer {
+  &.toast-layer {
+    z-index: 100000000;
+  }
+
+  .toast {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

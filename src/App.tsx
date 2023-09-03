@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { LoadingLayer } from "components/LoadingLayer";
-import React from "react";
+import { ToastLayer } from "components/ToastLayer";
 import { HashRouter, Redirect, Route } from "react-router-dom";
 import "./App.scss";
 
@@ -18,6 +18,7 @@ function App() {
           {/* <Route path="/app" component={app} /> */}
         </HashRouter>
         <LoadingLayer />
+        <ToastLayer />
       </div>
     </div>
   );
