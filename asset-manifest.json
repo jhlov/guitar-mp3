@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/guitar-mp3/static/css/main.8d4d69bb.css",
-    "main.js": "/guitar-mp3/static/js/main.6fc34f55.js",
+    "main.js": "/guitar-mp3/static/js/main.10ae7d1e.js",
     "static/js/206.e12ff2f4.chunk.js": "/guitar-mp3/static/js/206.e12ff2f4.chunk.js",
     "index.html": "/guitar-mp3/index.html"
   },
   "entrypoints": [
     "static/css/main.8d4d69bb.css",
-    "static/js/main.6fc34f55.js"
+    "static/js/main.10ae7d1e.js"
   ]
 }
