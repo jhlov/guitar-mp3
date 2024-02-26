@@ -1,5 +1,4 @@
 import { LessonData } from "data";
-import { useRef } from "react";
 import { AudioPlayer } from "./AudioPlayer";
 
 interface Props {
@@ -11,8 +10,6 @@ interface Props {
 }
 
 export const Lesson = (props: Props) => {
-  const audioRef = useRef<HTMLAudioElement>(null);
-
   return (
     <div className="mb-4 text-left">
       <h2 className="mb-2">
@@ -28,7 +25,7 @@ export const Lesson = (props: Props) => {
       />
 
       {props.hasBackingTrack && (
-        <div className="mt-1">
+        <div className="mt-3">
           <AudioPlayer
             title={"drum"}
             src={`/guitar-mp3/assets/mp3/${props.bookId}/${props.chapterId}-drum.mp3`}

@@ -1,7 +1,7 @@
 import { Lesson } from "components/Lesson";
 import { BookData, books } from "data";
 import { useMemo } from "react";
-import { Accordion } from "react-bootstrap";
+import { Accordion, Col, Container, Row } from "react-bootstrap";
 import { useRouteMatch } from "react-router-dom";
 
 interface Params {
@@ -17,34 +17,40 @@ export const Book = () => {
   }, []);
 
   return (
-    <div className="pt-5">
-      <h1 className="mb-3 text-xl font-bold">{bookData?.title}</h1>
-      <Accordion defaultActiveKey="0">
-        {bookData?.chapters.map(chapter => {
-          return (
-            <Accordion.Item
-              key={`${bookData.id}_${chapter.id}`}
-              eventKey={chapter.id}
-            >
-              <Accordion.Header>{chapter.title}</Accordion.Header>
-              <Accordion.Body>
-                {chapter.lessons.map((lesson, i) => {
-                  return (
-                    <Lesson
-                      key={`${bookData.id}_${chapter.id}_${i}`}
-                      bookId={bookData.id}
-                      chapterId={chapter.id}
-                      lessonIndex={i}
-                      lessonData={lesson}
-                      hasBackingTrack={chapter.hasBackingTrack ?? false}
-                    />
-                  );
-                })}
-              </Accordion.Body>
-            </Accordion.Item>
-          );
-        })}
-      </Accordion>
-    </div>
+    <Container className="pt-5">
+      <Row className="justify-content-center">
+        <Col md="12" lg="6">
+          <div className="pt-5">
+            <h1 className="mb-3 text-xl font-bold">{bookData?.title}</h1>
+            <Accordion defaultActiveKey="0">
+              {bookData?.chapters.map(chapter => {
+                return (
+                  <Accordion.Item
+                    key={`${bookData.id}_${chapter.id}`}
+                    eventKey={chapter.id}
+                  >
+                    <Accordion.Header>{chapter.title}</Accordion.Header>
+                    <Accordion.Body>
+                      {chapter.lessons.map((lesson, i) => {
+                        return (
+                          <Lesson
+                            key={`${bookData.id}_${chapter.id}_${i}`}
+                            bookId={bookData.id}
+                            chapterId={chapter.id}
+                            lessonIndex={i}
+                            lessonData={lesson}
+                            hasBackingTrack={chapter.hasBackingTrack ?? false}
+                          />
+                        );
+                      })}
+                    </Accordion.Body>
+                  </Accordion.Item>
+                );
+              })}
+            </Accordion>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
