@@ -11,13 +11,7 @@ interface Props {
 
 export const Lesson = (props: Props) => {
   return (
-    <div className="mb-4 text-left">
-      <h2 className="mb-2">
-        {`${props.lessonData.title}  BPM ${props.lessonData.bpm} (${
-          props.lessonData.start
-        } ~ ${props.lessonData.end ?? ""})`}
-      </h2>
-
+    <div className="text-left">
       <AudioPlayer
         title={"example"}
         src={`/guitar-mp3/assets/mp3/${props.bookId}/${props.chapterId}.mp3`}
@@ -33,7 +27,6 @@ export const Lesson = (props: Props) => {
           />
         </div>
       )}
-      <hr className="mt-2" />
     </div>
   );
 };

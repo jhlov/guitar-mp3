@@ -1,8 +1,7 @@
-import { Lesson } from "components/Lesson";
 import { BookData, books } from "data";
 import { useMemo } from "react";
-import { Accordion, Col, Container, Row } from "react-bootstrap";
-import { useRouteMatch } from "react-router-dom";
+import { Col, Container, Row } from "react-bootstrap";
+import { Link, useRouteMatch } from "react-router-dom";
 
 interface Params {
   id?: string;
@@ -18,38 +17,22 @@ export const Book = () => {
 
   return (
     <Container className="pt-5">
-      <Row className="justify-content-center">
-        <Col md="12" lg="6">
-          <div className="pt-5">
-            <h1 className="mb-3 text-xl font-bold">{bookData?.title}</h1>
-            <Accordion defaultActiveKey="0">
-              {bookData?.chapters.map(chapter => {
-                return (
-                  <Accordion.Item
-                    key={`${bookData.id}_${chapter.id}`}
-                    eventKey={chapter.id}
-                  >
-                    <Accordion.Header>{chapter.title}</Accordion.Header>
-                    <Accordion.Body>
-                      {chapter.lessons.map((lesson, i) => {
-                        return (
-                          <Lesson
-                            key={`${bookData.id}_${chapter.id}_${i}`}
-                            bookId={bookData.id}
-                            chapterId={chapter.id}
-                            lessonIndex={i}
-                            lessonData={lesson}
-                            hasBackingTrack={chapter.hasBackingTrack ?? false}
-                          />
-                        );
-                      })}
-                    </Accordion.Body>
-                  </Accordion.Item>
-                );
-              })}
-            </Accordion>
-          </div>
-        </Col>
+      <h1 className="mb-3 text-xl font-bold mb-5">{bookData?.title}</h1>
+      <Row className="flex-col items-center">
+        {bookData?.chapters.map(chapter => {
+          return (
+            <Col xs="12" sm="8" md="6">
+              <div className="d-grid">
+                <Link
+                  to={`/${bookData.id}/${chapter.id}`}
+                  className="btn btn-outline-primary btn-lg"
+                >
+                  {chapter.title}
+                </Link>
+              </div>
+            </Col>
+          );
+        })}
       </Row>
     </Container>
   );

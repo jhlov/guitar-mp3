@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export const Books = () => {
   return (
     <Container className="pt-5">
-      <Row className="justify-content-center">
+      <Row className="flex-col items-center">
         {books.map(book => {
           return (
-            <Col xs="6">
+            <Col xs="12" sm="8" md="6">
               <div className="d-grid">
                 <Link
                   to={`/${book.id}`}
