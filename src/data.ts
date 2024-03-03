@@ -214,7 +214,7 @@ export const books: BookData[] = [
             end: 67
           },
           {
-            title: "토 스무스한 슬라이드 -> 비브라토",
+            title: "토 스무스한 슬라이드->비브라토",
             bpm: 100,
             start: 67
           }
@@ -275,25 +275,25 @@ export const books: BookData[] = [
         hasBackingTrack: true,
         lessons: [
           {
-            title: "매일 A마이너 펜타토닉 -> G마이너 펜타토닉",
+            title: "매일 A마이너 펜타토닉->G마이너 펜타토닉",
             bpm: 100,
             start: 0,
             end: 13
           },
           {
-            title: "월 E마이너 펜타토닉 -> G마이너 펜타토닉",
+            title: "월 E마이너 펜타토닉->G마이너 펜타토닉",
             bpm: 100,
             start: 13,
             end: 26
           },
           {
-            title: "화 Bb마이너 펜타토닉 -> D마이너 펜타토닉",
+            title: "화 Bb마이너 펜타토닉->D마이너 펜타토닉",
             bpm: 100,
             start: 26,
             end: 39
           },
           {
-            title: "수 E마이너 펜타토닉 -> D마이너 펜타토닉",
+            title: "수 E마이너 펜타토닉->D마이너 펜타토닉",
             bpm: 140,
             start: 39,
             end: 48
@@ -311,9 +311,57 @@ export const books: BookData[] = [
             end: 73.5
           },
           {
-            title: "토 B -> A, G -> F마이너 펜타토닉",
+            title: "토 B->A, G->F마이너 펜타토닉",
             bpm: 100,
             start: 73.5
+          }
+        ]
+      },
+      {
+        id: "20",
+        title: "20주차 다양한 초킹을 구사하자",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "매일 4번 손가락으로 1번 줄을 누른 채로 2번 줄을 초킹",
+            bpm: 100,
+            start: 0,
+            end: 13.5
+          },
+          {
+            title: "월 쿼터 초킹을 마스터하자",
+            bpm: 120,
+            start: 13.5,
+            end: 24
+          },
+          {
+            title: "화 1번 손가락에 의한 1음 초킹",
+            bpm: 100,
+            start: 24,
+            end: 36.5
+          },
+          {
+            title: "수 다른 줄 같은 프렛의 복음 초킹",
+            bpm: 140,
+            start: 36.5,
+            end: 46
+          },
+          {
+            title: "목 슬라이드+1음반 초킹의 조합 테크닉",
+            bpm: 120,
+            start: 46,
+            end: 56.5
+          },
+          {
+            title: "금 초크 업이 컨트리 스타일을 느끼게 하는 프레이즈",
+            bpm: 80,
+            start: 56.5,
+            end: 72
+          },
+          {
+            title: "토 호텔 캘리포니아 스타일의 초킹->비브라토",
+            bpm: 120,
+            start: 72
           }
         ]
       }
