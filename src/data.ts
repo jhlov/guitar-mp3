@@ -74,6 +74,55 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "2",
+        title: "2주차 얼터네이트 피킹의 기본동작",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "매일 다운과 업을 확실히 의식하면서 연습하자",
+            bpm: 120,
+            start: 0,
+            end: 11.5
+          },
+          {
+            title: "월 코드 아르페지오로 얼터네이트 트레이닝",
+            bpm: 120,
+            start: 11.5,
+            end: 22
+          },
+          {
+            title: "화 셋잇단음을 얼터네이트로 연주",
+            bpm: 90,
+            start: 22,
+            end: 36
+          },
+          {
+            title: "수 코드 톤으로 구성된 얼터네이트 프레이즈",
+            bpm: 110,
+            start: 36,
+            end: 47.5
+          },
+          {
+            title: "목 헛피킹을 섞은 얼터네이트를 유지하자",
+            bpm: 120,
+            start: 47.5,
+            end: 58.5
+          },
+          {
+            title:
+              "금 싱코페이션을 많이 사용한 프레이즈에서 얼터네이트를 유지하자",
+            bpm: 100,
+            start: 58.5,
+            end: 71
+          },
+          {
+            title: "토 해머링을 할 때에 헛피킹을 넣어서 얼터네이트를 유지하자",
+            bpm: 100,
+            start: 71
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
