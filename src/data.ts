@@ -55,7 +55,7 @@ export const books: BookData[] = [
           {
             title: "목 블루지한 프레이즈에서의 비브라토",
             bpm: 120,
-            start: 43,
+            start: 43.5,
             end: 54
           },
           {
@@ -93,12 +93,12 @@ export const books: BookData[] = [
               "화 분위기가 고조되면 프레이즈는 그대로 유지하고 리듬을 바꾼다",
             bpm: 110,
             start: 22,
-            end: 34
+            end: 33.5
           },
           {
             title: "수 쿼터 초킹의 연습",
             bpm: 110,
-            start: 34,
+            start: 33.5,
             end: 45
           },
           {
@@ -117,6 +117,54 @@ export const books: BookData[] = [
             title: "토 여러가지 초킹이 들어간 실전 프레이즈",
             bpm: 140,
             start: 69
+          }
+        ]
+      },
+      {
+        id: "19",
+        title: "19주차 여러 가지 키의 마이너 펜타토닉",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "매일 A마이너 펜타토닉 -> G마이너 펜타토닉",
+            bpm: 100,
+            start: 0,
+            end: 13
+          },
+          {
+            title: "월 E마이너 펜타토닉 -> G마이너 펜타토닉",
+            bpm: 100,
+            start: 13,
+            end: 26
+          },
+          {
+            title: "화 Bb마이너 펜타토닉 -> D마이너 펜타토닉",
+            bpm: 100,
+            start: 26,
+            end: 39
+          },
+          {
+            title: "수 E마이너 펜타토닉 -> D마이너 펜타토닉",
+            bpm: 140,
+            start: 39,
+            end: 48
+          },
+          {
+            title: "목 G마이너 펜타토닉과 C마이너 펜타토닉",
+            bpm: 100,
+            start: 48,
+            end: 61
+          },
+          {
+            title: "금 C#마이너 펜타토닉과 F#마이너 펜타토닉",
+            bpm: 100,
+            start: 61,
+            end: 73.5
+          },
+          {
+            title: "토 B -> A, G -> F마이너 펜타토닉",
+            bpm: 100,
+            start: 73.5
           }
         ]
       }
