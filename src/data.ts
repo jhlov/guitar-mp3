@@ -24,6 +24,56 @@ export const books: BookData[] = [
     title: "기초 기타 트레이닝 365일",
     chapters: [
       {
+        id: "1",
+        title: "1주차 각 손가락이 독립해서 움직일 수 있도록 해주는 트레이닝",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title:
+              "매일 손가락을 확실히 벌리고, 2번-3번-4번 손가락을 세우고 줄을 누르는 연습",
+            bpm: 100,
+            start: 0,
+            end: 13
+          },
+          {
+            title: "월 1->3->2-> 4, 4->2->3->1 의 연습",
+            bpm: 100,
+            start: 13,
+            end: 26
+          },
+          {
+            title:
+              "화 전반은 1번 손가락, 후반은 4번 손가락을 기준으로 움직인다",
+            bpm: 100,
+            start: 26,
+            end: 39
+          },
+          {
+            title: "수 운지의 지정을 엄수하면서 연주하는 셋잇단음 프레이즈",
+            bpm: 100,
+            start: 39,
+            end: 52.5
+          },
+          {
+            title: "목 3개 단위로 반복하는 프레이즈",
+            bpm: 110,
+            start: 52.5,
+            end: 64
+          },
+          {
+            title: "금 1프렛 포지션 이동",
+            bpm: 100,
+            start: 64,
+            end: 76
+          },
+          {
+            title: "토 2프렛 포지션 이동",
+            bpm: 110,
+            start: 76
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
