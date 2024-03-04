@@ -173,6 +173,55 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "4",
+        title: "4주차 메커니컬하게 횡이동하는 트레이닝",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "매일 6번 줄을 반음단위로 상승, 하강하는 횡이동",
+            bpm: 90,
+            start: 0,
+            end: 14.5
+          },
+          {
+            title: "월 4번 손가락을 쓰지 않고, 3개의 음을 연주하고 나면 횡이동",
+            bpm: 80,
+            start: 14.5,
+            end: 30.5
+          },
+          {
+            title: "화 4번과 1번 손가락의 횡이동",
+            bpm: 80,
+            start: 30.5,
+            end: 46
+          },
+          {
+            title: "수 2&3번 줄에서 2프렛분의 횡이동을 반복한다.",
+            bpm: 110,
+            start: 46,
+            end: 58
+          },
+          {
+            title: "목 1&2번 줄을 상승, 하강하면서 격렬하게 횡이동",
+            bpm: 80,
+            start: 58,
+            end: 73.5
+          },
+          {
+            title: "금 음계는 심플하지만 상당히 난이도가 높은 횡이동",
+            bpm: 100,
+            start: 73.5,
+            end: 86
+          },
+          {
+            title:
+              "토 각 줄에 2개의 손가락으로 도레미를 연주한다! 경악의 포지션 이동",
+            bpm: 80,
+            start: 86
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
