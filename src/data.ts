@@ -441,6 +441,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "10",
+        title: "10주차 스트레치를 향상시키는 트레이닝",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 손가락의 균등한 스트레치로 줄이동하는 기초 트레이닝",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 스트레치를 사용한 클래시컬 프레이즈",
+            bpm: 100,
+            start: 13.5
+          },
+          {
+            title: "화 인터벌이 큰 스트레치 특유의 프레이즈",
+            bpm: 100,
+            start: 26
+          },
+          {
+            title: "수 넌피킹으로 음을 연결하는 스트레치",
+            bpm: 210,
+            start: 39
+          },
+          {
+            title: "목 기절할만한 1번~4번 손가락 스트레치",
+            bpm: 100,
+            start: 45
+          },
+          {
+            title: "금 코드 아르페지오를 스트레치로 연주하자",
+            bpm: 100,
+            start: 58
+          },
+          {
+            title: "토 1옥타브 차이로 도레미를 연주하는 고난이도 스트레치",
+            bpm: 80,
+            start: 70.5
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
