@@ -312,6 +312,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "7",
+        title: "7주차 메이저 스케일의 7포지션",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 파에서 시작하는 포지션",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 솔에서 시작하는 포지션",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "화 라에서 시작하는 포지션",
+            bpm: 100,
+            start: 26
+          },
+          {
+            title: "수 시에서 시작하는 포지션",
+            bpm: 100,
+            start: 38.5
+          },
+          {
+            title: "목 도에서 시작하는 포지션",
+            bpm: 100,
+            start: 51
+          },
+          {
+            title: "금 레에서 시작하는 포지션",
+            bpm: 100,
+            start: 64
+          },
+          {
+            title: "토 미에서 시작하는 포지션",
+            bpm: 100,
+            start: 76.5
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
