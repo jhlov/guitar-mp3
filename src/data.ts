@@ -483,6 +483,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "11",
+        title: "11주차 각종 뮤트를 마스터하자",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 브릿지 뮤트를 사용해서 연주하는 6번 줄 단음 리프",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 6번 줄 개방의 브릿지 뮤트를 섞은 리프",
+            bpm: 120,
+            start: 11.5
+          },
+          {
+            title: "화 5번 줄 개방의 브릿지 뮤트를 섞은 리프",
+            bpm: 120,
+            start: 22
+          },
+          {
+            title: "수 6번 줄 뮤트 음과 복음의 구분연주가 어려운 리프",
+            bpm: 120,
+            start: 33
+          },
+          {
+            title: "목 특정 음에 브릿지 뮤트를 건 솔로",
+            bpm: 120,
+            start: 43.5
+          },
+          {
+            title: "금 오른손 엄지를 줄에 대고 완전하게 뮤트",
+            bpm: 120,
+            start: 54
+          },
+          {
+            title: "토 코드 스트로크하면서 뮤트",
+            bpm: 120,
+            start: 65
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
