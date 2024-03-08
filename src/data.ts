@@ -222,6 +222,54 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "5",
+        title: "5주차 메이저 스케일에서 자주 사용되는 포지션",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 개방현을 섞어서 도레미...를 연주하자",
+            bpm: 90,
+            start: 0,
+            end: 14.5
+          },
+          {
+            title: "월 프렛과 운지가 일정한 C메이저 스케일 포지션",
+            bpm: 90,
+            start: 14.5,
+            end: 29
+          },
+          {
+            title: "화 A마이너 펜타토닉 근처에서 연주하는 C메이저 스케일",
+            bpm: 90,
+            start: 29,
+            end: 42.5
+          },
+          {
+            title: "수 메이저 스케일의 평행이동",
+            bpm: 80,
+            start: 42.5,
+            end: 58.5
+          },
+          {
+            title: "목 규칙적으로 배열되어 속주에 적합한 C메이저 스케일 포지션",
+            bpm: 90,
+            start: 58.5,
+            end: 72.5
+          },
+          {
+            title: "금 도미레파미솔파라...로 연주하는 패턴",
+            bpm: 90,
+            start: 72.5,
+            end: 86.5
+          },
+          {
+            title: "토 도레미파솔라시를 다양한 위치에서 연주하자.",
+            bpm: 70,
+            start: 86.5
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
@@ -327,12 +375,12 @@ export const books: BookData[] = [
             title: "매일 A마이너 펜타토닉->G마이너 펜타토닉",
             bpm: 100,
             start: 0,
-            end: 13
+            end: 13.5
           },
           {
             title: "월 E마이너 펜타토닉->G마이너 펜타토닉",
             bpm: 100,
-            start: 13,
+            start: 13.5,
             end: 26
           },
           {
