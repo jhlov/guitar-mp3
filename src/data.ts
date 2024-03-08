@@ -270,6 +270,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "6",
+        title: "6주차 해머링&풀링의 특훈!",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 각 손가락을 균등하게 해머링&풀링",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 6~3번 줄을 이동하면서, 각 손가락을 해머링&풀링",
+            bpm: 120,
+            start: 13.5
+          },
+          {
+            title: "화 해머링&풀링으로 무작정 소리를 이어가자",
+            bpm: 110,
+            start: 24
+          },
+          {
+            title: "수 해머링&풀링 강화 프레이즈",
+            bpm: 130,
+            start: 35.5
+          },
+          {
+            title: "목 1번 줄을 스트레치하는 기분으로 해머링&풀링",
+            bpm: 120,
+            start: 45.5
+          },
+          {
+            title: "금 1줄에서 3개의 음을 연주하는 속주의 상투적 패턴",
+            bpm: 120,
+            start: 56.5
+          },
+          {
+            title: "토 완전히 넌피킹으로 연주하는 왼손강화 프레이즈",
+            bpm: 120,
+            start: 67
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,

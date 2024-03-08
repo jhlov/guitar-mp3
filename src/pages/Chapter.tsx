@@ -2,6 +2,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import HomeIcon from "@mui/icons-material/Home";
 import { Lesson } from "components/Lesson";
 import { BookData, ChapterData, books } from "data";
+import _ from "lodash";
 import { useEffect, useMemo } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link, useRouteMatch } from "react-router-dom";
@@ -28,7 +29,7 @@ export const Chapter = () => {
   }, [bookData]);
 
   const getTimeString = (time: number | undefined) => {
-    if (!time) {
+    if (_.isNil(time)) {
       return "";
     }
 
@@ -70,13 +71,16 @@ export const Chapter = () => {
                   <Card.Subtitle className="mb-2 text-muted text-left">
                     {`BPM ${lesson.bpm}  (CD ${getTimeString(
                       lesson.start
-                    )} ~ ${getTimeString(lesson.end)})`}
+                    )} ~ ${getTimeString(chapterData?.lessons[i + 1]?.start)})`}
                   </Card.Subtitle>
                   <Lesson
                     bookId={bookData?.id ?? ""}
                     chapterId={chapterData.id}
                     lessonIndex={i}
-                    lessonData={lesson}
+                    lessonData={{
+                      ...lesson,
+                      end: chapterData?.lessons[i + 1]?.start
+                    }}
                     hasBackingTrack={chapterData.hasBackingTrack ?? false}
                   />
                 </Card.Body>
