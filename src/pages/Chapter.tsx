@@ -27,6 +27,14 @@ export const Chapter = () => {
     return bookData?.chapters.find(chapter => chapter.id === cid);
   }, [bookData]);
 
+  const getTimeString = (time: number | undefined) => {
+    if (!time) {
+      return "";
+    }
+
+    return `${Math.floor(time / 60)}:${Math.floor(time % 60)}`;
+  };
+
   return (
     <Container className="pt-5">
       <Row className="flex-col items-center">
@@ -59,11 +67,11 @@ export const Chapter = () => {
               <Card className="mb-4">
                 <Card.Body>
                   <Card.Title className="text-left">{lesson.title}</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted text-left">{`BPM ${
-                    lesson.bpm
-                  },  (CD ${lesson.start} ~ ${
-                    lesson.end ?? ""
-                  })`}</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 text-muted text-left">
+                    {`BPM ${lesson.bpm}  (CD ${getTimeString(
+                      lesson.start
+                    )} ~ ${getTimeString(lesson.end)})`}
+                  </Card.Subtitle>
                   <Lesson
                     bookId={bookData?.id ?? ""}
                     chapterId={chapterData.id}
