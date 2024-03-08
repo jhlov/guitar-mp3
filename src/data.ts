@@ -696,6 +696,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "16",
+        title: "16주차 초킹 엑서사이즈",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 반음, 1음 초킹의 음정확인 연습",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 초킹 타이밍의 바리에이션",
+            bpm: 100,
+            start: 13.5
+          },
+          {
+            title: "화 정석적인 초킹 프레이즈의 반복",
+            bpm: 100,
+            start: 26
+          },
+          {
+            title: "수 1번 손가락에 의한 초킹",
+            bpm: 120,
+            start: 38
+          },
+          {
+            title: "목 3번 손가락에 의한 끌어내리는 초킹",
+            bpm: 100,
+            start: 48
+          },
+          {
+            title: "금 반음 초킹 엑서사이즈",
+            bpm: 100,
+            start: 61
+          },
+          {
+            title: "토 초킹을 섞은 정석적인 블루스 프레이즈",
+            bpm: 160,
+            start: 74
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
