@@ -550,7 +550,7 @@ export const books: BookData[] = [
             start: 42
           },
           {
-            title: "목 4음 패턴으로 나오는 조인트 프레이ㅡ",
+            title: "목 4음 패턴으로 나오는 조인트 프레이즈",
             bpm: 110,
             start: 54.5
           },
@@ -563,6 +563,50 @@ export const books: BookData[] = [
             title: "토 복음&풀링이 들어간 조인트 프레이즈",
             bpm: 160,
             start: 77
+          }
+        ]
+      },
+      {
+        id: "13",
+        title: "13주차 다이내믹스 컨트롤",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 악센트 부분에서 강하게 연주하는 프레이즈",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title:
+              "월 상승 시에는 점점 크게, 하강 시에는 점점 작게 연주하는 스케일 연습",
+            bpm: 100,
+            start: 11.5
+          },
+          {
+            title: "화 셋잇단음의 첫 음을 세게 연주하는 프레이즈",
+            bpm: 120,
+            start: 24
+          },
+          {
+            title: "수 펜타토닉의 상승, 하강에 맞춰서 강약을 조절한다",
+            bpm: 100,
+            start: 35
+          },
+          {
+            title:
+              "목 강하게 연주하는 것은 코드음, 약하게 연주하는 것은 넌코드음",
+            bpm: 100,
+            start: 47.5
+          },
+          {
+            title: "금 같은 음에 강약을 주면서 연주하는 프레이즈",
+            bpm: 100,
+            start: 60
+          },
+          {
+            title: "토 파워 코드에 강약을 주면서 연주하는 프레이즈",
+            bpm: 120,
+            start: 73
           }
         ]
       },
