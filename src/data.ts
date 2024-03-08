@@ -525,6 +525,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "12",
+        title: "12주차 스무스한 조인트를 마스터하자",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 3&4번 줄의 조인트를 반복하는 기초 트레이닝",
+            bpm: 80,
+            start: 0
+          },
+          {
+            title: "월 줄이동을 하면서 조인트하는 프레이즈 - 1",
+            bpm: 100,
+            start: 16
+          },
+          {
+            title: "화 줄이동을 하면서 조인트하는 프레이즈 - 2",
+            bpm: 100,
+            start: 29
+          },
+          {
+            title: "수 조인트의 왕복 패턴을 셋잇단음으로 연주하자",
+            bpm: 100,
+            start: 42
+          },
+          {
+            title: "목 4음 패턴으로 나오는 조인트 프레이ㅡ",
+            bpm: 110,
+            start: 54.5
+          },
+          {
+            title: "금 3줄에 걸친 고난이도 조인트 프레이즈",
+            bpm: 120,
+            start: 66
+          },
+          {
+            title: "토 복음&풀링이 들어간 조인트 프레이즈",
+            bpm: 160,
+            start: 77
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
