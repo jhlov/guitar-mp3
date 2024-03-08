@@ -611,6 +611,49 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "14",
+        title: "14주차 마이너 펜타토닉의 기본 포지션",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 A마이너 펜타토닉 6번 줄 루트 포지션",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 A마이너 펜타토닉에 의한 정석 중의 정석 프레이즈",
+            bpm: 110,
+            start: 11.5
+          },
+          {
+            title: "화 A마이너 펜타토닉 6번 줄 루트의 슬라이드를 포함한 포지션",
+            bpm: 80,
+            start: 23
+          },
+          {
+            title: "수 같은 패턴의 프레이즈를 옥타브 차이로 연주하자",
+            bpm: 90,
+            start: 39
+          },
+          {
+            title: "목 A마이너 펜타토닉 5번 줄 루트 포지션",
+            bpm: 110,
+            start: 53
+          },
+          {
+            title:
+              "금 슬라이드가 들어간 포지션에서 옥타브 차이의 같은 프레이즈를 연주하자",
+            bpm: 130,
+            start: 64.5
+          },
+          {
+            title: "토 16분 음표에 의한 프레이즈를 옥타브 차이로 연주하자",
+            bpm: 100,
+            start: 74
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
