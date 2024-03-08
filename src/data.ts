@@ -399,6 +399,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "9",
+        title: "9주차 줄 건너뛰기 피킹",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 6번 줄->5, 4, 3번 줄로 이동하는 기초 프레이즈",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 코드음을 연주하는 2번 줄 건너뛰기 프레이즈",
+            bpm: 100,
+            start: 11.5
+          },
+          {
+            title: "화 코드음을 연주하는 3번 줄 건너뛰기 프레이즈",
+            bpm: 100,
+            start: 24
+          },
+          {
+            title: "수 슬라이드, 풀링이 들어간 4번 줄 건너뛰기 프레이즈",
+            bpm: 100,
+            start: 37
+          },
+          {
+            title: "목 5, 4번 줄 건너뛰기 프레이즈",
+            bpm: 100,
+            start: 50
+          },
+          {
+            title: "금 하이퍼 감각의 줄 건너뛰기",
+            bpm: 100,
+            start: 62.5
+          },
+          {
+            title: "토 줄 건너뛰기로 연주하는 5화음 코드 아르페지오",
+            bpm: 100,
+            start: 75
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
