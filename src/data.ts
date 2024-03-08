@@ -654,6 +654,48 @@ export const books: BookData[] = [
         ]
       },
       {
+        id: "15",
+        title: "15주차 다양한 포지션의 마이너 펜타토닉",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 6번 줄 위에서 A마이너 펜타토닉의 구성음을 연주하자",
+            bpm: 70,
+            start: 0
+          },
+          {
+            title: "월 라, 도에서 시작하는 포지션",
+            bpm: 80,
+            start: 18.5
+          },
+          {
+            title: "화 레, 미에서 시작하는 포지션",
+            bpm: 80,
+            start: 34
+          },
+          {
+            title: "수 솔, 라에서 시작하는 포지션",
+            bpm: 80,
+            start: 50
+          },
+          {
+            title: "목 3개의 펜타토닉 포지션을 왕복하는 프레이즈",
+            bpm: 130,
+            start: 65.5
+          },
+          {
+            title: "금 6개의 단위로 복수의 포지션을 왕복하는 프레이즈",
+            bpm: 130,
+            start: 76
+          },
+          {
+            title: "토 로우 프렛에서 하이 프렛까지 펜타토닉으로 횡단!",
+            bpm: 140,
+            start: 86
+          }
+        ]
+      },
+      {
         id: "17",
         title: "17주차 필살! 비브라토 도장",
         hasBackingTrack: true,
