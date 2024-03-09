@@ -1822,6 +1822,48 @@ export const books: BookData[] = [
             start: 77.5
           }
         ]
+      },
+      {
+        id: "42",
+        title: "42주차 피킹의 정밀도를 높이자",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 같은 프레이즈를 상반된 피킹 패턴으로 비교연주",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "월 Bb메이저 스케일을 상반된 얼터네이트로 연주",
+            bpm: 110,
+            start: 12
+          },
+          {
+            title: "화 다운과 업이 매번 바뀌는 5음 세트 프레이즈",
+            bpm: 100,
+            start: 23.5
+          },
+          {
+            title: "수 파워 코드를 다운으로 피킹하는 것을 우선시 한 기타 리프",
+            bpm: 110,
+            start: 36
+          },
+          {
+            title: "목 셋잇단음->16분음표로 바뀌는 피킹이 헷갈리는 프레이즈",
+            bpm: 110,
+            start: 48
+          },
+          {
+            title: "금 3음 세트의 고음 줄 속주 프레이즈",
+            bpm: 110,
+            start: 60
+          },
+          {
+            title: "토 얼터네이트로 끝내는 속주 코드 아르페지오",
+            bpm: 120,
+            start: 71.5
+          }
+        ]
       }
     ]
   }
