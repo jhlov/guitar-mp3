@@ -1779,6 +1779,49 @@ export const books: BookData[] = [
             start: 73
           }
         ]
+      },
+      {
+        id: "41",
+        title: "41주차 하모닉스 테크닉",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 기타 리프의 사이에 내추럴 하모닉스를 넣자",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "월 터치 하모닉스를 사용한 코드 백킹",
+            bpm: 75,
+            start: 11
+          },
+          {
+            title: "화 터치 하모닉스를 사용한 솔로 프레이즈",
+            bpm: 120,
+            start: 27
+          },
+          {
+            title: "수 터치 하모닉스 할 위치를 바꾸는 코드 플레이",
+            bpm: 75,
+            start: 38
+          },
+          {
+            title: "목 오른손으로 줄을 때리는 태핑 하모닉스",
+            bpm: 100,
+            start: 55
+          },
+          {
+            title:
+              "금 아이언 메이든 스타일의 6번 줄 하모닉스와 3번 줄 트릴&하모닉스",
+            bpm: 130,
+            start: 67.5
+          },
+          {
+            title: "토 와일드한 피킹 하모닉스와 터치 하모닉스",
+            bpm: 120,
+            start: 77.5
+          }
+        ]
       }
     ]
   }
