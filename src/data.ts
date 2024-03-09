@@ -1695,6 +1695,48 @@ export const books: BookData[] = [
             start: 69.5
           }
         ]
+      },
+      {
+        id: "39",
+        title: "39주차 블루스의 정석 백킹 패턴",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 정석 중의 정석, 6도를 더한 백킹",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 4번 손가락 스트레치가 힘든 정석 패턴",
+            bpm: 120,
+            start: 11.5
+          },
+          {
+            title: "화 m3rd->△3rd라는 양념이 들어간 패턴",
+            bpm: 120,
+            start: 22
+          },
+          {
+            title: "수 손가락이 닿지 않는 사람들을 위한 패턴",
+            bpm: 130,
+            start: 32.5
+          },
+          {
+            title: "목 셔플 리듬으로 정석 패턴을 연주",
+            bpm: 110,
+            start: 42.5
+          },
+          {
+            title: "금 엄지로 6번 줄을 누르는 다채로운 커팅 패턴",
+            bpm: 110,
+            start: 54
+          },
+          {
+            title: "토 코드음을 움직여서 연주하는 백킹 패턴",
+            bpm: 140,
+            start: 66
+          }
+        ]
       }
     ]
   }
