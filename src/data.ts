@@ -1397,6 +1397,48 @@ export const books: BookData[] = [
             start: 74
           }
         ]
+      },
+      {
+        id: "32",
+        title: "32주차 속주 특훈 주간",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 왼손만 움직이면 여섯잇단음 속주도 간단하다!",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "월 해머링 속주 프레이즈",
+            bpm: 160,
+            start: 12
+          },
+          {
+            title: "화 군데군데 여섯잇단음이 들어간 프레이즈",
+            bpm: 120,
+            start: 20.5
+          },
+          {
+            title: "수 강약을 주어서 상승, 하강하는 프레이즈",
+            bpm: 130,
+            start: 31
+          },
+          {
+            title: "목 해머링&풀링을 사용한 펜타토닉",
+            bpm: 140,
+            start: 41
+          },
+          {
+            title: "금 1번 줄만을 연주하는 속주 프레이즈",
+            bpm: 105,
+            start: 50.5
+          },
+          {
+            title: "토 2번 손가락을 병용한 속주 프레이즈",
+            bpm: 160,
+            start: 62.5
+          }
+        ]
       }
     ]
   }
