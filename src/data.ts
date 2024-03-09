@@ -1991,6 +1991,48 @@ export const books: BookData[] = [
             start: 52
           }
         ]
+      },
+      {
+        id: "46",
+        title: "46주차 각 장르 특유의 리듬을 알자",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 재즈의 4비트",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "월 튀는 16분음표 리듬",
+            bpm: 100,
+            start: 12
+          },
+          {
+            title: "화 정석 중의 정석, 모타운 패턴",
+            bpm: 180,
+            start: 24.5
+          },
+          {
+            title: "수 레게 커팅",
+            bpm: 70,
+            start: 32
+          },
+          {
+            title: "목 뒷박자를 강조하는 스카 리듬",
+            bpm: 160,
+            start: 50
+          },
+          {
+            title: "금 2&3박자를 어긋나게 하는 왈츠 리듬",
+            bpm: 120,
+            start: 58
+          },
+          {
+            title: "토 재즈의 너무 튀지 않는 솔로",
+            bpm: 130,
+            start: 66
+          }
+        ]
       }
     ]
   }
