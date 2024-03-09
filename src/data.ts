@@ -1525,6 +1525,48 @@ export const books: BookData[] = [
             start: 93
           }
         ]
+      },
+      {
+        id: "35",
+        title: "35주차 마이너 펜타토닉에 텐션을 더하자",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 A마이너 펜타토닉으로 A도리안을 만들어낸다",
+            bpm: 80,
+            start: 0
+          },
+          {
+            title: "월 A도리안에 의한 음정차이가 큰 프레이즈",
+            bpm: 90,
+            start: 16.5
+          },
+          {
+            title: "화 D마이너 펜타토닉으로 D도리안을 만들어낸다",
+            bpm: 90,
+            start: 30.5
+          },
+          {
+            title: "수 D도리안에 의한 실전적인 프레이즈",
+            bpm: 100,
+            start: 44.5
+          },
+          {
+            title: "목 C마이너 펜타토닉에 △3rd, 13th, b5th를 더한 프레이즈",
+            bpm: 160,
+            start: 57.5
+          },
+          {
+            title: "금 C마이너 펜타토닉을 근거로 코드 음을 넣은 프레이즈",
+            bpm: 160,
+            start: 65.5
+          },
+          {
+            title: "토 C마이너 펜타토닉을 근거로 다양한 음을 넣은 재지한 솔로",
+            bpm: 100,
+            start: 74
+          }
+        ]
       }
     ]
   }
