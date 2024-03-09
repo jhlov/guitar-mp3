@@ -37,7 +37,7 @@ export const Chapter = () => {
   };
 
   return (
-    <Container className="pt-5">
+    <Container className="py-5">
       <Row className="flex-col items-center">
         <Col xs="12" sm="10" md="8">
           <div className="d-flex justify-between mb-5 items-center">

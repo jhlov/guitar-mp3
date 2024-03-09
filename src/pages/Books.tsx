@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Books = () => {
   return (
-    <Container className="pt-5">
+    <Container className="py-5">
       <Row className="flex-col items-center">
         {books.map(book => {
           return (

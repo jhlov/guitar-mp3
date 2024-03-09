@@ -16,7 +16,7 @@ export const Book = () => {
   }, []);
 
   return (
-    <Container className="pt-5">
+    <Container className="py-5">
       <h1 className="mb-3 text-xl font-bold mb-5">{bookData?.title}</h1>
       <Row className="flex-col items-center">
         {bookData?.chapters.map(chapter => {
