@@ -1906,6 +1906,48 @@ export const books: BookData[] = [
             start: 68
           }
         ]
+      },
+      {
+        id: "44",
+        title: "44주차 핑거피킹을 섞은 피킹",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 피크와 2번 손가락을 교대로 피킹",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 1번 줄을 유지하면서 하강하는 핑거피킹에 유리한 프레이즈",
+            bpm: 120,
+            start: 11
+          },
+          {
+            title: "화 풀링을 섞은 스피디한 핑거피킹 프레이즈",
+            bpm: 120,
+            start: 22
+          },
+          {
+            title: "수 개방현이 들어간 컨트리 프레이즈",
+            bpm: 120,
+            start: 32.5
+          },
+          {
+            title: "목 2번&3번 손가락에 의한 타이트한 복음 프레이즈",
+            bpm: 120,
+            start: 43.5
+          },
+          {
+            title: "금 пп->2번 손가락이라는 변칙적인 패턴",
+            bpm: 120,
+            start: 54
+          },
+          {
+            title: "토 고음 줄을 사용한 하드록 스타일의 프레이즈",
+            bpm: 120,
+            start: 65
+          }
+        ]
       }
     ]
   }
