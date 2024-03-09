@@ -1015,6 +1015,48 @@ export const books: BookData[] = [
             start: 74
           }
         ]
+      },
+      {
+        id: "23",
+        title: "23주차 리듬의 뒷박자를 느끼는 트레이닝",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 8분음표 뒷박자를 연타하는 리프 트레이닝",
+            bpm: 140,
+            start: 0
+          },
+          {
+            title: "월 점4분음이 연속되는 싱코페이션",
+            bpm: 160,
+            start: 9.8
+          },
+          {
+            title: "화 같은 프레이즈를 후반에서는 8분음표 어긋나게 연주",
+            bpm: 160,
+            start: 18
+          },
+          {
+            title: "수 2박자마다 8분쉼표가 들어가는 패턴",
+            bpm: 160,
+            start: 26
+          },
+          {
+            title: "목 끝까지 8분음표 뒷박자를 연주하는 코드 백킹",
+            bpm: 160,
+            start: 34.5
+          },
+          {
+            title: "금 16분음표 뒷박자 연발 리프",
+            bpm: 110,
+            start: 43
+          },
+          {
+            title: "토 셔플 리듬으로 뒷박자를 연주",
+            bpm: 120,
+            start: 54.5
+          }
+        ]
       }
     ]
   }
