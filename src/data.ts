@@ -972,6 +972,49 @@ export const books: BookData[] = [
             start: 76.5
           }
         ]
+      },
+      {
+        id: "22",
+        title: "22주차 돌출주의! 리듬 바꾸기",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title:
+              "매일 4음 세트의 프레이즈를 8분음표, 셋잇단음표, 16분음표로 연주",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 전반 '도레미파', 후반 '솔파미레'를 셋잇단음으로 연주",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "화 4음 세트로 상승->하강하는 스케일 연습",
+            bpm: 100,
+            start: 26
+          },
+          {
+            title: "수 5음 세트로 이동하는 리듬 바꾸기 프레이즈",
+            bpm: 100,
+            start: 39
+          },
+          {
+            title: "목 해머링&풀링이 섞인 실전 프레이즈",
+            bpm: 120,
+            start: 51.5
+          },
+          {
+            title: "금 5음 세트의 프레이즈를 16분음표로 연주",
+            bpm: 110,
+            start: 62
+          },
+          {
+            title: "토 4음 세트를 여섯잇단음으로 속주",
+            bpm: 80,
+            start: 74
+          }
+        ]
       }
     ]
   }
