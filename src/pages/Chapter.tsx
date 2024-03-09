@@ -43,7 +43,9 @@ export const Chapter = () => {
     return (
       <>
         <span style={{ fontSize: "24px" }}>{title.substring(0, index)}</span>{" "}
-        {title.substring(index)}
+        <span
+          dangerouslySetInnerHTML={{ __html: title.substring(index) }}
+        ></span>
       </>
     );
   };

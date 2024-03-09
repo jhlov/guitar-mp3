@@ -36,7 +36,7 @@ export const books: BookData[] = [
             end: 13
           },
           {
-            title: "월 1->3->2-> 4, 4->2->3->1 의 연습",
+            title: "월 1→3→2→ 4, 4→2→3→1 의 연습",
             bpm: 100,
             start: 13,
             end: 26
@@ -135,13 +135,13 @@ export const books: BookData[] = [
             end: 16
           },
           {
-            title: "월 상승 시 : 1->3->2->4, 하강 시 : 4->2->3->1",
+            title: "월 상승 시 : 1→3→2→4, 하강 시 : 4→2→3→1",
             bpm: 100,
             start: 16,
             end: 32
           },
           {
-            title: "화 상승 시 : 1->4->2->3, 하강 시 : 4->1->3->2",
+            title: "화 상승 시 : 1→4→2→3, 하강 시 : 4→1→3→2",
             bpm: 80,
             start: 32,
             end: 47.5
@@ -159,7 +159,7 @@ export const books: BookData[] = [
             end: 72
           },
           {
-            title: "금 1.5음 단위로 상승->하강하는 트레이닝",
+            title: "금 1.5음 단위로 상승→하강하는 트레이닝",
             bpm: 100,
             start: 72,
             end: 84.5
@@ -404,7 +404,7 @@ export const books: BookData[] = [
         hasBackingTrack: false,
         lessons: [
           {
-            title: "매일 6번 줄->5, 4, 3번 줄로 이동하는 기초 프레이즈",
+            title: "매일 6번 줄→5, 4, 3번 줄로 이동하는 기초 프레이즈",
             bpm: 120,
             start: 0
           },
@@ -779,7 +779,7 @@ export const books: BookData[] = [
             end: 67
           },
           {
-            title: "토 스무스한 슬라이드->비브라토",
+            title: "토 스무스한 슬라이드→비브라토",
             bpm: 100,
             start: 67
           }
@@ -840,25 +840,25 @@ export const books: BookData[] = [
         hasBackingTrack: true,
         lessons: [
           {
-            title: "매일 A마이너 펜타토닉->G마이너 펜타토닉",
+            title: "매일 A마이너 펜타토닉→G마이너 펜타토닉",
             bpm: 100,
             start: 0,
             end: 13.5
           },
           {
-            title: "월 E마이너 펜타토닉->G마이너 펜타토닉",
+            title: "월 E마이너 펜타토닉→G마이너 펜타토닉",
             bpm: 100,
             start: 13.5,
             end: 26
           },
           {
-            title: "화 Bb마이너 펜타토닉->D마이너 펜타토닉",
+            title: "화 Bb마이너 펜타토닉→D마이너 펜타토닉",
             bpm: 100,
             start: 26,
             end: 39
           },
           {
-            title: "수 E마이너 펜타토닉->D마이너 펜타토닉",
+            title: "수 E마이너 펜타토닉→D마이너 펜타토닉",
             bpm: 140,
             start: 39,
             end: 48
@@ -876,7 +876,7 @@ export const books: BookData[] = [
             end: 73.5
           },
           {
-            title: "토 B->A, G->F마이너 펜타토닉",
+            title: "토 B→A, G→F마이너 펜타토닉",
             bpm: 100,
             start: 73.5
           }
@@ -924,7 +924,7 @@ export const books: BookData[] = [
             end: 72
           },
           {
-            title: "토 호텔 캘리포니아 스타일의 초킹->비브라토",
+            title: "토 호텔 캘리포니아 스타일의 초킹→비브라토",
             bpm: 120,
             start: 72
           }
@@ -937,7 +937,7 @@ export const books: BookData[] = [
         lessons: [
           {
             title:
-              "매일 4분음표->8분음표->셋잇단음->16분음표의 순서로 연주하는 프레이즈",
+              "매일 4분음표→8분음표→셋잇단음→16분음표의 순서로 연주하는 프레이즈",
             bpm: 110,
             start: 0
           },
@@ -947,7 +947,7 @@ export const books: BookData[] = [
             start: 12
           },
           {
-            title: "화 8분음표->16분음표로 연주하는 2배속 프레이즈",
+            title: "화 8분음표→16분음표로 연주하는 2배속 프레이즈",
             bpm: 100,
             start: 24
           },
@@ -967,7 +967,7 @@ export const books: BookData[] = [
             start: 65
           },
           {
-            title: "토 셋잇단음표->16분음표를 섞은 음계연습",
+            title: "토 셋잇단음표→16분음표를 섞은 음계연습",
             bpm: 110,
             start: 76.5
           }
@@ -990,7 +990,7 @@ export const books: BookData[] = [
             start: 13
           },
           {
-            title: "화 4음 세트로 상승->하강하는 스케일 연습",
+            title: "화 4음 세트로 상승→하강하는 스케일 연습",
             bpm: 100,
             start: 26
           },
@@ -1173,7 +1173,7 @@ export const books: BookData[] = [
             start: 51
           },
           {
-            title: "금 Dm7(9)의 쿨한 울림이 인상적인 코드 커팅",
+            title: "금 Dm7<sup>(9)</sup>의 쿨한 울림이 인상적인 코드 커팅",
             bpm: 110,
             start: 62.5
           },
@@ -1366,7 +1366,7 @@ export const books: BookData[] = [
             start: 0
           },
           {
-            title: "월 3음 세트 패턴을 셋잇단음->16분음표로 연주",
+            title: "월 3음 세트 패턴을 셋잇단음→16분음표로 연주",
             bpm: 110,
             start: 13.5
           },
@@ -1515,12 +1515,12 @@ export const books: BookData[] = [
             start: 66
           },
           {
-            title: "금 A->B도리안에 의한 음정차이가 큰 프레이즈",
+            title: "금 A→B도리안에 의한 음정차이가 큰 프레이즈",
             bpm: 100,
             start: 80
           },
           {
-            title: "토 C->F믹솔리디안에 의한 펑키한 프레이즈",
+            title: "토 C→F믹솔리디안에 의한 펑키한 프레이즈",
             bpm: 100,
             start: 93
           }
@@ -1552,7 +1552,8 @@ export const books: BookData[] = [
             start: 44.5
           },
           {
-            title: "목 C마이너 펜타토닉에 △3rd, 13th, b5th를 더한 프레이즈",
+            title:
+              "목 C마이너 펜타토닉에 △3rd, 13th, <sup>b</sup>5th를 더한 프레이즈",
             bpm: 160,
             start: 57.5
           },
@@ -1574,7 +1575,7 @@ export const books: BookData[] = [
         hasBackingTrack: false,
         lessons: [
           {
-            title: "매일 C메이저 펜타토닉->C마이너 펜타토닉의 기초연습",
+            title: "매일 C메이저 펜타토닉→C마이너 펜타토닉의 기초연습",
             bpm: 120,
             start: 0
           },
@@ -1633,7 +1634,7 @@ export const books: BookData[] = [
             start: 24
           },
           {
-            title: "수 8분음표->셔플로 변하는 기타리프",
+            title: "수 8분음표→셔플로 변하는 기타리프",
             bpm: 120,
             start: 34.5
           },
@@ -1712,7 +1713,7 @@ export const books: BookData[] = [
             start: 11.5
           },
           {
-            title: "화 m3rd->△3rd라는 양념이 들어간 패턴",
+            title: "화 m3rd→△3rd라는 양념이 들어간 패턴",
             bpm: 120,
             start: 22
           },
@@ -1849,7 +1850,7 @@ export const books: BookData[] = [
             start: 36
           },
           {
-            title: "목 셋잇단음->16분음표로 바뀌는 피킹이 헷갈리는 프레이즈",
+            title: "목 셋잇단음→16분음표로 바뀌는 피킹이 헷갈리는 프레이즈",
             bpm: 110,
             start: 48
           },
@@ -1938,7 +1939,7 @@ export const books: BookData[] = [
             start: 43.5
           },
           {
-            title: "금 пп->2번 손가락이라는 변칙적인 패턴",
+            title: "금 пп→2번 손가락이라는 변칙적인 패턴",
             bpm: 120,
             start: 54
           },
@@ -2031,6 +2032,49 @@ export const books: BookData[] = [
             title: "토 재즈의 너무 튀지 않는 솔로",
             bpm: 130,
             start: 66
+          }
+        ]
+      },
+      {
+        id: "47",
+        title: "47주차 스케일 체인지에 도전",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 C메이저 스케일→C마이너 스케일",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 A마이너 펜타토닉→A하모닉 마이너",
+            bpm: 90,
+            start: 11
+          },
+          {
+            title: "화 A도리안→C메이저 스케일",
+            bpm: 90,
+            start: 25.5
+          },
+          {
+            title: "수 D도리안→F도리안",
+            bpm: 100,
+            start: 39.5
+          },
+          {
+            title: "목 B<sup>b</sup>→A<sup>b</sup>메이저 스케일 기초 연습",
+            bpm: 90,
+            start: 52
+          },
+          {
+            title:
+              "금 B<sup>b</sup>→A<sup>b</sup>메이저 스케일의 실전적인 프레이즈",
+            bpm: 100,
+            start: 66
+          },
+          {
+            title: "토 2음 낮은 키로 조옮김하는 코드 진행에서의 플레이",
+            bpm: 140,
+            start: 79
           }
         ]
       }
