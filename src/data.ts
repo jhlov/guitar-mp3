@@ -2109,6 +2109,48 @@ export const books: BookData[] = [
             start: 79
           }
         ]
+      },
+      {
+        id: "50",
+        title: "50주차 옥타브 주법 프레이즈",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 C메이저 스케일을 옥타브 주법으로 연주",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "월 C메이저 스케일에 의한 4음 패턴",
+            bpm: 70,
+            start: 12
+          },
+          {
+            title: "화 A마이너 펜타토닉에 의한 블루지한 프레이즈",
+            bpm: 120,
+            start: 30
+          },
+          {
+            title: "수 튀는 리듬으로 연주하는 옥타브 프레이즈",
+            bpm: 120,
+            start: 40.5
+          },
+          {
+            title: "목 코드의 <small>△</small>3rd로 해결하는 옥타브 프레이즈",
+            bpm: 110,
+            start: 51.5
+          },
+          {
+            title: "금 드라이브 톤으로 울리는 하드 록 스타일의 옥타브 플레이",
+            bpm: 120,
+            start: 63
+          },
+          {
+            title: "토 싱코페이션을 살린 옥타브 프레이즈",
+            bpm: 80,
+            start: 73.5
+          }
+        ]
       }
     ]
   }
