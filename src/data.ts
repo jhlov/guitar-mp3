@@ -1225,6 +1225,49 @@ export const books: BookData[] = [
             start: 74
           }
         ]
+      },
+      {
+        id: "28",
+        title: "28주차 커팅의 바리에이션",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 코드 커팅과 단음 커팅을 섞은 패턴",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "월 2줄을 울리는 것만으로 듣기 좋은 코드 커팅",
+            bpm: 110,
+            start: 12
+          },
+          {
+            title: "화 16분음표가 섞인 8비트 커팅",
+            bpm: 140,
+            start: 23.5
+          },
+          {
+            title: "수 반박자 셋잇단음이 들어간 테크니컬 커팅",
+            bpm: 110,
+            start: 33
+          },
+          {
+            title:
+              "목 고음 줄의 코드음과 저음 줄의 단음을 조합한 실전적인 커팅",
+            bpm: 95,
+            start: 44.5
+          },
+          {
+            title: "금 옥타브 주법에 의한 커팅",
+            bpm: 120,
+            start: 57.5
+          },
+          {
+            title: "토 다른 줄 같은 프렛에 의한 리프 커팅",
+            bpm: 115,
+            start: 68
+          }
+        ]
       }
     ]
   }
