@@ -1354,6 +1354,49 @@ export const books: BookData[] = [
             start: 71
           }
         ]
+      },
+      {
+        id: "31",
+        title: "31주차 피킹의 속도를 높혀라",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 반박자 셋잇단음으로 빠른 피킹을 익히자",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 3음 세트 패턴을 셋잇단음->16분음표로 연주",
+            bpm: 110,
+            start: 13.5
+          },
+          {
+            title: "화 노도의 여섯잇단음 트레몰로 피킹",
+            bpm: 100,
+            start: 25
+          },
+          {
+            title: "수 반박자 셋잇단음에 의한 스케일 연습",
+            bpm: 110,
+            start: 38
+          },
+          {
+            title: "목 6음 세트 프레이즈를 4박자 째만 여섯잇단음으로 연주",
+            bpm: 110,
+            start: 49.5
+          },
+          {
+            title: "금 왼손 주도 의식을 훈련하는 속주 프레이즈",
+            bpm: 100,
+            start: 61
+          },
+          {
+            title:
+              "토 전반은 해머링&풀링,후반은 전부피킹으로 연주하는 프레이즈",
+            bpm: 120,
+            start: 74
+          }
+        ]
       }
     ]
   }
