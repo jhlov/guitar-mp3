@@ -1553,7 +1553,7 @@ export const books: BookData[] = [
           },
           {
             title:
-              "목 C마이너 펜타토닉에 △3rd, 13th, <sup>b</sup>5th를 더한 프레이즈",
+              "목 C마이너 펜타토닉에 <small>△</small>3rd, 13th, <sup>b</sup>5th를 더한 프레이즈",
             bpm: 160,
             start: 57.5
           },
@@ -1713,7 +1713,7 @@ export const books: BookData[] = [
             start: 11.5
           },
           {
-            title: "화 m3rd→△3rd라는 양념이 들어간 패턴",
+            title: "화 m3rd→<small>△</small>3rd라는 양념이 들어간 패턴",
             bpm: 120,
             start: 22
           },
@@ -2075,6 +2075,50 @@ export const books: BookData[] = [
             title: "토 2음 낮은 키로 조옮김하는 코드 진행에서의 플레이",
             bpm: 140,
             start: 79
+          }
+        ]
+      },
+      {
+        id: "48",
+        title: "48주차 코드를 의식한 프레이징",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 각 코드의 1, 3, 5, 7도를 연주",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 각 코드의 3도→(4도 경유)→5도로 연주하는 프레이즈",
+            bpm: 130,
+            start: 13.5
+          },
+          {
+            title: "화 상승과 하강에서 코드가 달라지는 프레이즈",
+            bpm: 80,
+            start: 23
+          },
+          {
+            title: "수 늘이는 음이 각 코드의 5도가 되는 프레이즈",
+            bpm: 90,
+            start: 39
+          },
+          {
+            title:
+              "목 코드 음을 의식하면서 자연스런 음으로 구성된 실전 프레이즈",
+            bpm: 90,
+            start: 53
+          },
+          {
+            title:
+              "금 1st&<small>△</small>3rd와 <small>△</small>3rd&5th를 의식한 컨트리 프레이즈",
+            bpm: 100,
+            start: 67
+          },
+          {
+            title: "토 9th와 13th를 양념으로 넣은 복음 컨트리 프레이즈",
+            bpm: 70,
+            start: 80
           }
         ]
       }
