@@ -15,7 +15,7 @@ export const Chapter = () => {
   const match = useRouteMatch();
 
   useEffect(() => {
-    console.log(match.params);
+    window.scrollTo(0, 0);
   }, []);
 
   const bookData: BookData | undefined = useMemo(() => {

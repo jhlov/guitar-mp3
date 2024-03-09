@@ -1737,6 +1737,48 @@ export const books: BookData[] = [
             start: 66
           }
         ]
+      },
+      {
+        id: "40",
+        title: "40주차 쉼표를 살린 커팅",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 1, 2박자를 비운 코드 커팅",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 16분음을 섞은 8비트 커팅",
+            bpm: 110,
+            start: 13
+          },
+          {
+            title: "화 혼 섹션 느낌의 블루지한 백킹",
+            bpm: 110,
+            start: 24
+          },
+          {
+            title: "수 궁극의 심플 커팅",
+            bpm: 195,
+            start: 35.5
+          },
+          {
+            title: "목 틈을 노린 펑키한 백킹",
+            bpm: 95,
+            start: 49
+          },
+          {
+            title: "금 핑거피킹에 의한 타이트한 백킹",
+            bpm: 110,
+            start: 61.5
+          },
+          {
+            title: "토 앙상블과 어울리는 백킹",
+            bpm: 100,
+            start: 73
+          }
+        ]
       }
     ]
   }
