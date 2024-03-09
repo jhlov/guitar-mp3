@@ -1183,6 +1183,48 @@ export const books: BookData[] = [
             start: 74
           }
         ]
+      },
+      {
+        id: "27",
+        title: "27주차 단음 커팅 트레이닝",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 3번 줄 단음 커팅",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 16분음표로 연주하는 펑키한 단음 커팅",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "화 좀 더 움직임이 있는 단음 커팅",
+            bpm: 100,
+            start: 26
+          },
+          {
+            title: "수 블루 노트를 넣은 소울 계열의 단음 커팅",
+            bpm: 100,
+            start: 38.5
+          },
+          {
+            title: "목 오른손을 브릿지에 두고 연주하는 단음 뮤트 커팅 프레이즈",
+            bpm: 110,
+            start: 50.5
+          },
+          {
+            title: "금 해머링을 섞어서 풍부한 뉘앙스의 단음 뮤트 커팅",
+            bpm: 110,
+            start: 62
+          },
+          {
+            title: "토 코드음을 중심으로 연주하는 팝스 계열 단음 뮤트 커팅",
+            bpm: 110,
+            start: 74
+          }
+        ]
       }
     ]
   }
