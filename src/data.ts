@@ -1141,6 +1141,48 @@ export const books: BookData[] = [
             start: 77
           }
         ]
+      },
+      {
+        id: "26",
+        title: "26주차 코드 커팅 트레이닝",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 나인스 코드에 의한 펑키한 커팅",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 코드를 누르는 타이밍을 바꾸는 연습 - 1",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "화 코드를 누르는 타이밍을 바꾸는 연습 - 2",
+            bpm: 100,
+            start: 26
+          },
+          {
+            title: "수 3번 손가락 바레코드에 의한 나인스 코드",
+            bpm: 100,
+            start: 38.5
+          },
+          {
+            title: "목 팝스의 정석적인 코드 커팅",
+            bpm: 110,
+            start: 51
+          },
+          {
+            title: "금 Dm7(9)의 쿨한 울림이 인상적인 코드 커팅",
+            bpm: 110,
+            start: 62.5
+          },
+          {
+            title: "토 지미 헨드릭스 스타일의 코드 커팅",
+            bpm: 110,
+            start: 74
+          }
+        ]
       }
     ]
   }
