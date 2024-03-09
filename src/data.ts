@@ -2151,6 +2151,49 @@ export const books: BookData[] = [
             start: 73.5
           }
         ]
+      },
+      {
+        id: "51",
+        title: "51주차 워킹 베이스+컴핑",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 생략형 코드와 1-3-5-3도를 연주하는 워킹 베이스",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 코드 사이를 연결하듯이 걷는 워킹 베이스 플레이",
+            bpm: 120,
+            start: 11
+          },
+          {
+            title: "화 코드 사이를 보다 매끄럽게 연결하는 베이스 라인",
+            bpm: 120,
+            start: 22
+          },
+          {
+            title: "수 보사노바의 정석 패턴",
+            bpm: 120,
+            start: 32.5
+          },
+          {
+            title: "목 코드의 1도와 5도를 연주하는 보사노바 패턴",
+            bpm: 120,
+            start: 43
+          },
+          {
+            title: "금 2박자 단위로 재빠른 코드 체인지 패턴",
+            bpm: 120,
+            start: 54
+          },
+          {
+            title:
+              "토 코드 체인지의 직전에 반음 위의 베이스 음을 배치하는 플레이",
+            bpm: 140,
+            start: 65
+          }
+        ]
       }
     ]
   }
