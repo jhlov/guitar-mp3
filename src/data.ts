@@ -1483,6 +1483,48 @@ export const books: BookData[] = [
             start: 63
           }
         ]
+      },
+      {
+        id: "34",
+        title: "34주차 도리안&믹솔리디안 스케일",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 도리안&믹솔리디안 스케일",
+            bpm: 80,
+            start: 0
+          },
+          {
+            title: "월 E도리안 스케일을 사용한 쿨한 솔로",
+            bpm: 70,
+            start: 16.5
+          },
+          {
+            title: "화 해머링&풀링, 슬라이드로 억양을 넣은 솔로",
+            bpm: 90,
+            start: 34
+          },
+          {
+            title: "수 D믹솔리디안에 의한 연습 프레이즈",
+            bpm: 70,
+            start: 48
+          },
+          {
+            title: "목 D믹솔리디안에 의한 실전적인 프레이즈",
+            bpm: 90,
+            start: 66
+          },
+          {
+            title: "금 A->B도리안에 의한 음정차이가 큰 프레이즈",
+            bpm: 100,
+            start: 80
+          },
+          {
+            title: "토 C->F믹솔리디안에 의한 펑키한 프레이즈",
+            bpm: 100,
+            start: 93
+          }
+        ]
       }
     ]
   }
