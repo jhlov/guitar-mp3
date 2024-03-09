@@ -38,6 +38,16 @@ export const Chapter = () => {
       .padStart(2, "0")}`;
   };
 
+  const getTitle = (title: string) => {
+    const index = title.indexOf(" ");
+    return (
+      <>
+        <span style={{ fontSize: "24px" }}>{title.substring(0, index)}</span>{" "}
+        {title.substring(index)}
+      </>
+    );
+  };
+
   return (
     <Container className="py-5">
       <Row className="flex-col items-center">
@@ -69,7 +79,9 @@ export const Chapter = () => {
             >
               <Card className="mb-4">
                 <Card.Body>
-                  <Card.Title className="text-left">{lesson.title}</Card.Title>
+                  <Card.Title className="text-left">
+                    {getTitle(lesson.title)}
+                  </Card.Title>
                   <Card.Subtitle className="mb-2 text-muted text-left">
                     {`BPM ${lesson.bpm}  (CD ${getTimeString(
                       lesson.start

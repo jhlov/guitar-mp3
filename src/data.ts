@@ -1948,6 +1948,49 @@ export const books: BookData[] = [
             start: 65
           }
         ]
+      },
+      {
+        id: "45",
+        title: "45주차 다양한 박자로 연주하자",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 3/4박자의 기타 리프",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 3/4박자로 1박자반 프레이즈를 연주",
+            bpm: 120,
+            start: 9
+          },
+          {
+            title: "화 8분음표x3개 세트의 6/8 박자",
+            bpm: 240,
+            start: 17
+          },
+          {
+            title:
+              "수 리듬을 타기 어려운 5/4박자에 2박자 단위 프레이즈를 얹는다",
+            bpm: 160,
+            start: 25.5
+          },
+          {
+            title: "목 3/4박자와 같은 리듬의 9/8박자",
+            bpm: 320,
+            start: 35.5
+          },
+          {
+            title: "금 2/4박자와 3/4박자가 뒤섞인 변박자 기타 리프",
+            bpm: 160,
+            start: 45
+          },
+          {
+            title: "토 같은 프레이즈를 변박자로 연주",
+            bpm: 240,
+            start: 52
+          }
+        ]
       }
     ]
   }
