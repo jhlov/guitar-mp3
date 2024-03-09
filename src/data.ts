@@ -1611,6 +1611,48 @@ export const books: BookData[] = [
             start: 70
           }
         ]
+      },
+      {
+        id: "37",
+        title: "37주차 셔플리듬으로 피킹",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 셋잇단음의 셔플로 '튀는 리듬'을 익히자",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "월 C메이저 스케일을 튀는 리듬으로 연주",
+            bpm: 110,
+            start: 12
+          },
+          {
+            title: "화 B마이너 펜타토닉을 튀는 리듬으로 연주",
+            bpm: 120,
+            start: 24
+          },
+          {
+            title: "수 8분음표->셔플로 변하는 기타리프",
+            bpm: 120,
+            start: 34.5
+          },
+          {
+            title: "목 오른손의 릴렉스가 요구되는 튀는 16분음표",
+            bpm: 95,
+            start: 45.5
+          },
+          {
+            title: "금 경쾌한 튀는 16분음 기타 리프",
+            bpm: 100,
+            start: 59
+          },
+          {
+            title: "토 약간 튀는 리듬으로 연주하는 재지한 프레이징",
+            bpm: 100,
+            start: 71.5
+          }
+        ]
       }
     ]
   }
