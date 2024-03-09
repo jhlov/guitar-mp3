@@ -1653,6 +1653,48 @@ export const books: BookData[] = [
             start: 71.5
           }
         ]
+      },
+      {
+        id: "38",
+        title: "38주차 셔플비트를 배우자",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 셋잇단음으로 코드 커팅",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "월 피킹 패턴에 주의가 필요한 코드 커팅",
+            bpm: 120,
+            start: 11
+          },
+          {
+            title: "화 전부 다운으로 연주하는 블루스 계열의 백킹",
+            bpm: 120,
+            start: 22
+          },
+          {
+            title: "수 강력한 연주가 어울리는 셔플 계열 코드 백킹",
+            bpm: 130,
+            start: 33
+          },
+          {
+            title: "목 튀는 16분음으로 연주하는 펑키한 코드 커팅",
+            bpm: 90,
+            start: 42.5
+          },
+          {
+            title: "금 슬라이드를 섞은 튀는 16분음 코드 커팅",
+            bpm: 95,
+            start: 56
+          },
+          {
+            title: "토 왕복하는 슬라이드가 어려운 코드 커팅",
+            bpm: 95,
+            start: 69.5
+          }
+        ]
       }
     ]
   }
