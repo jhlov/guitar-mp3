@@ -1099,6 +1099,48 @@ export const books: BookData[] = [
             start: 71
           }
         ]
+      },
+      {
+        id: "25",
+        title: "25주차 재빠른 코드 체인지 트레이닝",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 Low코드의 코드 체인지를 무작정 반복",
+            bpm: 80,
+            start: 0
+          },
+          {
+            title: "월 매일 연주할 악보와 같은 코드진행을 A키로 연주",
+            bpm: 80,
+            start: 16.5
+          },
+          {
+            title: "화 5&6번 줄 루트의 바레코드 체인지",
+            bpm: 120,
+            start: 32
+          },
+          {
+            title: "수 생략형 코드 폼으로 코드 체인지",
+            bpm: 120,
+            start: 42.5
+          },
+          {
+            title: "목 1번과 4번 손가락은 움직이지 않고 연주하는 커팅",
+            bpm: 120,
+            start: 53
+          },
+          {
+            title: "금 다이어토닉 코드를 가까운 포지션에서 해결",
+            bpm: 100,
+            start: 64
+          },
+          {
+            title: "토 난해한 코드 체인지에 도전",
+            bpm: 110,
+            start: 77
+          }
+        ]
       }
     ]
   }
