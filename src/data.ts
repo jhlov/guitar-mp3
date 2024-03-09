@@ -2194,6 +2194,48 @@ export const books: BookData[] = [
             start: 65
           }
         ]
+      },
+      {
+        id: "52",
+        title: "52주차 재즈 스타일의 솔로 기타",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 생략형 코드 폼→단음의 조합",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "월 텐션 음을 더한 코드로 발전하는 트레이닝",
+            bpm: 90,
+            start: 13.5
+          },
+          {
+            title: "화 코드→단음에 의한 실전적인 재즈 프레이즈",
+            bpm: 80,
+            start: 27
+          },
+          {
+            title: "수 코드 체인지가 심한 재즈 솔로 기타의 솔로",
+            bpm: 90,
+            start: 43
+          },
+          {
+            title: "목 4분음표로 진행하는 코드 백킹 플레이",
+            bpm: 120,
+            start: 59.5
+          },
+          {
+            title: "금 후반에서 노도의 16분음표가 등장하는 솔로 프레이즈",
+            bpm: 110,
+            start: 70.5
+          },
+          {
+            title: "토 코드 사이를 이어가듯이 연주하는 솔로 프레이즈",
+            bpm: 110,
+            start: 81.5
+          }
+        ]
       }
     ]
   }
