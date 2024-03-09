@@ -1864,6 +1864,48 @@ export const books: BookData[] = [
             start: 71.5
           }
         ]
+      },
+      {
+        id: "43",
+        title: "43주차 스위프 피킹 입문",
+        hasBackingTrack: false,
+        lessons: [
+          {
+            title: "매일 코드 음을 셋잇단음으로 연주하는 스위프의 기초 연습",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "월 풀링과 조합한 스위프",
+            bpm: 110,
+            start: 10.5
+          },
+          {
+            title: "화 5음 세트에 의한 상승형 스위프",
+            bpm: 100,
+            start: 22
+          },
+          {
+            title: "수 반박자 셋잇단음에 의한 고속 스위프",
+            bpm: 110,
+            start: 35
+          },
+          {
+            title: "목 각 코드 음을 연주하는 5~1번 줄에 걸친 스위프",
+            bpm: 120,
+            start: 46.5
+          },
+          {
+            title: "금 메이저 세븐스 코드 음에 9th를 더한 멋진 스위프",
+            bpm: 120,
+            start: 57
+          },
+          {
+            title: "토 슬라이드도 섞은 다이내믹스한 스위프",
+            bpm: 130,
+            start: 68
+          }
+        ]
       }
     ]
   }
