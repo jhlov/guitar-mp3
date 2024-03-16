@@ -847,7 +847,7 @@ export const books: BookData[] = [
           {
             title: "월 쿼터 초킹을 마스터하자",
             bpm: 120,
-            start: 13.5
+            start: 13.2
           },
           {
             title: "화 1번 손가락에 의한 1음 초킹",
