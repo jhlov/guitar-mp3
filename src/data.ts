@@ -933,7 +933,7 @@ export const books: BookData[] = [
           {
             title: "월 전반 '도레미파', 후반 '솔파미레'를 셋잇단음으로 연주",
             bpm: 100,
-            start: 13
+            start: 13.2
           },
           {
             title: "화 4음 세트로 상승→하강하는 스케일 연습",
@@ -943,7 +943,7 @@ export const books: BookData[] = [
           {
             title: "수 5음 세트로 이동하는 리듬 바꾸기 프레이즈",
             bpm: 100,
-            start: 39
+            start: 38.5
           },
           {
             title: "목 해머링&풀링이 섞인 실전 프레이즈",
@@ -958,7 +958,7 @@ export const books: BookData[] = [
           {
             title: "토 4음 세트를 여섯잇단음으로 속주",
             bpm: 80,
-            start: 74
+            start: 73.5
           }
         ]
       },
@@ -985,7 +985,7 @@ export const books: BookData[] = [
           {
             title: "수 2박자마다 8분쉼표가 들어가는 패턴",
             bpm: 160,
-            start: 26
+            start: 26.5
           },
           {
             title: "목 끝까지 8분음표 뒷박자를 연주하는 코드 백킹",
@@ -995,7 +995,7 @@ export const books: BookData[] = [
           {
             title: "금 16분음표 뒷박자 연발 리프",
             bpm: 110,
-            start: 43
+            start: 42.5
           },
           {
             title: "토 셔플 리듬으로 뒷박자를 연주",
@@ -1007,7 +1007,7 @@ export const books: BookData[] = [
       {
         id: "24",
         title: "24주차 메트로놈을 활용한 트레이닝",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 2분음표로 메트로놈을 울리면서 연주하는 트레이닝",
@@ -1032,7 +1032,7 @@ export const books: BookData[] = [
           {
             title: "목 1, 3박자 째 뒷박자에서 메트로놈을 울린다",
             bpm: 110,
-            start: 48
+            start: 47.5
           },
           {
             title: "금 2&4박자 째 뒷박자에 메트로놈을 울리면서 연주하는 리프",
@@ -1049,7 +1049,7 @@ export const books: BookData[] = [
       {
         id: "25",
         title: "25주차 재빠른 코드 체인지 트레이닝",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 Low코드의 코드 체인지를 무작정 반복",
@@ -1084,7 +1084,7 @@ export const books: BookData[] = [
           {
             title: "토 난해한 코드 체인지에 도전",
             bpm: 110,
-            start: 77
+            start: 76.5
           }
         ]
       },
