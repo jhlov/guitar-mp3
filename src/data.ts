@@ -1175,7 +1175,7 @@ export const books: BookData[] = [
       {
         id: "28",
         title: "28주차 커팅의 바리에이션",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 코드 커팅과 단음 커팅을 섞은 패턴",
