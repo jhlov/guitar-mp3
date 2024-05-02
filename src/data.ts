@@ -1133,7 +1133,7 @@ export const books: BookData[] = [
       {
         id: "27",
         title: "27주차 단음 커팅 트레이닝",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 3번 줄 단음 커팅",
