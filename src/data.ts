@@ -1260,7 +1260,7 @@ export const books: BookData[] = [
       {
         id: "30",
         title: "30주차 인사이드&아웃사이드 피킹",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title:
@@ -1304,7 +1304,7 @@ export const books: BookData[] = [
       {
         id: "31",
         title: "31주차 피킹의 속도를 높혀라",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 반박자 셋잇단음으로 빠른 피킹을 익히자",
@@ -1324,7 +1324,7 @@ export const books: BookData[] = [
           {
             title: "수 반박자 셋잇단음에 의한 스케일 연습",
             bpm: 110,
-            start: 38
+            start: 37.5
           },
           {
             title: "목 6음 세트 프레이즈를 4박자 째만 여섯잇단음으로 연주",
