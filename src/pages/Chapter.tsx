@@ -1,11 +1,14 @@
+import { ArrowForward } from "@mui/icons-material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import HomeIcon from "@mui/icons-material/Home";
+import classNames from "classnames";
 import { Lesson } from "components/Lesson";
 import { BookData, ChapterData, books } from "data";
 import _ from "lodash";
 import { useEffect, useMemo } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link, useRouteMatch } from "react-router-dom";
+import "./Chapter.scss";
 
 interface Params {
   id?: string;
@@ -21,12 +24,12 @@ export const Chapter = () => {
   const bookData: BookData | undefined = useMemo(() => {
     const id = (match.params as Params).id;
     return books.find(book => book.id === id);
-  }, []);
+  }, [match.params]);
 
   const chapterData: ChapterData | undefined = useMemo(() => {
     const cid = (match.params as Params).cid;
     return bookData?.chapters.find(chapter => chapter.id === cid);
-  }, [bookData]);
+  }, [match.params, bookData]);
 
   const getTimeString = (time: number | undefined) => {
     if (_.isNil(time)) {
@@ -56,18 +59,33 @@ export const Chapter = () => {
         <Col xs="12" sm="10" md="8">
           <div className="d-flex justify-between mb-5 items-center">
             <Link
-              to={`/`}
-              className="btn btn-outline-secondary btn-sm invisible"
+              to={`/${bookData?.id}`}
+              className="btn btn-outline-secondary btn-sm"
             >
               <HomeIcon fontSize="small" />
             </Link>
             <h1 className="text-xl font-bold">{chapterData?.title}</h1>
-            <Link
-              to={`/${bookData?.id}`}
-              className="btn btn-outline-secondary btn-sm"
-            >
-              <ArrowBackIcon fontSize="small" />
-            </Link>
+            <div>
+              <Link
+                to={`/${bookData?.id}/${Number(chapterData?.id!) - 1}`}
+                className={classNames(
+                  "btn btn-outline-secondary btn-sm",
+                  Number(chapterData?.id!) === 1 && "disabled disabled-link"
+                )}
+              >
+                <ArrowBackIcon fontSize="small" />
+              </Link>
+              <Link
+                to={`/${bookData?.id}/${Number(chapterData?.id!) + 1}`}
+                className={classNames(
+                  "btn btn-outline-secondary btn-sm",
+                  Number(chapterData?.id!) === bookData?.chapters.length &&
+                    "disabled disabled-link"
+                )}
+              >
+                <ArrowForward fontSize="small" />
+              </Link>
+            </div>
           </div>
         </Col>
 

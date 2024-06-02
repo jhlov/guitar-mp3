@@ -1314,7 +1314,7 @@ export const books: BookData[] = [
           {
             title: "월 3음 세트 패턴을 셋잇단음→16분음표로 연주",
             bpm: 110,
-            start: 13.5
+            start: 13
           },
           {
             title: "화 노도의 여섯잇단음 트레몰로 피킹",
@@ -1347,7 +1347,7 @@ export const books: BookData[] = [
       {
         id: "32",
         title: "32주차 속주 특훈 주간",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 왼손만 움직이면 여섯잇단음 속주도 간단하다!",
@@ -1389,7 +1389,7 @@ export const books: BookData[] = [
       {
         id: "33",
         title: "33주차 레가토 주법",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 최초 첫 음도 해머링으로 시작해서 끝까지 넌피킹으로",
@@ -1433,7 +1433,7 @@ export const books: BookData[] = [
       {
         id: "34",
         title: "34주차 도리안&믹솔리디안 스케일",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 도리안&믹솔리디안 스케일",
