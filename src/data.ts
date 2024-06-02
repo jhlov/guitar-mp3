@@ -1314,7 +1314,7 @@ export const books: BookData[] = [
           {
             title: "월 3음 세트 패턴을 셋잇단음→16분음표로 연주",
             bpm: 110,
-            start: 13
+            start: 13.2
           },
           {
             title: "화 노도의 여섯잇단음 트레몰로 피킹",
