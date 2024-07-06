@@ -1475,7 +1475,7 @@ export const books: BookData[] = [
       {
         id: "35",
         title: "35주차 마이너 펜타토닉에 텐션을 더하자",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 A마이너 펜타토닉으로 A도리안을 만들어낸다",
