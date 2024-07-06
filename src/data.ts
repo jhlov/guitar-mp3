@@ -1518,7 +1518,7 @@ export const books: BookData[] = [
       {
         id: "36",
         title: "36주차 메이저&마이너 펜타토닉의 구분",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 C메이저 펜타토닉→C마이너 펜타토닉의 기초연습",
@@ -1604,7 +1604,7 @@ export const books: BookData[] = [
       {
         id: "38",
         title: "38주차 셔플비트를 배우자",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 셋잇단음으로 코드 커팅",
