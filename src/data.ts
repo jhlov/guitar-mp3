@@ -1942,7 +1942,7 @@ export const books: BookData[] = [
       {
         id: "46",
         title: "46주차 각 장르 특유의 리듬을 알자",
-        hasBackingTrack: false,
+        hasBackingTrack: true,
         lessons: [
           {
             title: "매일 재즈의 4비트",
