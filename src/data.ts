@@ -2245,7 +2245,7 @@ export const books: BookData[] = [
     chapters: [
       {
         id: "1",
-        title: "No.1 - 루트에 사랑을 담아서 ~개방현~",
+        title: "NO.1 루트에 사랑을 담아서 ~개방현~",
         hasBackingTrack: true,
         lessons: [
           {
@@ -2255,24 +2255,24 @@ export const books: BookData[] = [
           },
           {
             title: "초급",
-            bpm: 100,
+            bpm: 80,
             start: 17
           },
           {
             title: "중급",
-            bpm: 100,
+            bpm: 80,
             start: 38
           },
           {
             title: "고급",
-            bpm: 100,
+            bpm: 90,
             start: 59
           }
         ]
       },
       {
         id: "2",
-        title: "No.2 - 루트에 사랑을 담아서 ~8분음~",
+        title: "NO.2 루트에 사랑을 담아서 ~8분음~",
         hasBackingTrack: true,
         lessons: [
           {
@@ -2282,21 +2282,808 @@ export const books: BookData[] = [
           },
           {
             title: "초급",
+            bpm: 90,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 90,
+            start: 33
+          },
+          {
+            title: "고급",
+            bpm: 100,
+            start: 51
+          }
+        ]
+      },
+      {
+        id: "3",
+        title: "NO.3 루트에 사랑을 담아서 ~16분음~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 80,
+            start: 15
+          },
+          {
+            title: "중급",
+            bpm: 90,
+            start: 36
+          },
+          {
+            title: "고급",
+            bpm: 95,
+            start: 55
+          }
+        ]
+      },
+      {
+        id: "4",
+        title: "NO.4 루트에 사랑을 담아서 ~8분음+16분음~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
             bpm: 120,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 90,
+            start: 15
+          },
+          {
+            title: "중급",
+            bpm: 90,
+            start: 33
+          },
+          {
+            title: "고급",
+            bpm: 100,
+            start: 52
+          }
+        ]
+      },
+      {
+        id: "5",
+        title: "NO.5 루트에 사랑을 담아서 ~셋잇단음~ ",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 80,
+            start: 15
+          },
+          {
+            title: "중급",
+            bpm: 90,
+            start: 35
+          },
+          {
+            title: "고급",
+            bpm: 95,
+            start: 54
+          }
+        ]
+      },
+      {
+        id: "6",
+        title: "NO.6 모두를 위한 입구 ‘파워 코드’ ~①~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
             start: 14
           },
           {
             title: "중급",
             bpm: 120,
-            start: 33
+            start: 31
           },
           {
             title: "고급",
             bpm: 120,
+            start: 46
+          }
+        ]
+      },
+      {
+        id: "7",
+        title: "NO.7 모두를 위한 입구 ‘파워 코드’ ~②~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 110,
+            start: 31
+          },
+          {
+            title: "고급",
+            bpm: 110,
+            start: 47
+          }
+        ]
+      },
+      {
+        id: "8",
+        title: "NO.8 모두를 위한 입구 ‘파워 코드’ ~③~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 115,
+            start: 31
+          },
+          {
+            title: "고급",
+            bpm: 130,
+            start: 46
+          }
+        ]
+      },
+      {
+        id: "9",
+        title: "NO.9 리프를 위한 트레이닝 ~①~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 120,
+            start: 31
+          },
+          {
+            title: "고급",
+            bpm: 120,
+            start: 45
+          }
+        ]
+      },
+      {
+        id: "10",
+        title: "NO.10 리프를 위한 트레이닝 ~②~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 115,
+            start: 30
+          },
+          {
+            title: "고급",
+            bpm: 130,
+            start: 46
+          }
+        ]
+      },
+      {
+        id: "11",
+        title: "NO.11 기타 세계 불멸의 문지기",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 85,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 70,
+            start: 20
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 43
+          },
+          {
+            title: "고급",
+            bpm: 85,
+            start: 60
+          }
+        ]
+      },
+      {
+        id: "12",
+        title: "NO.12 캐논에 도전해보자! ~백킹편~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 135,
+            start: 0,
+            end: 54
+          },
+          {
+            title: "인트로",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "A",
+            bpm: 135,
+            start: 18.1
+          },
+          {
+            title: "B+End",
+            bpm: 135,
+            start: 32.2
+          }
+        ]
+      },
+      {
+        id: "13",
+        title: "NO.13 음의 계단은 두렵지 않아! ~메이저 스케일~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 85,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 70,
+            start: 19
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 43
+          },
+          {
+            title: "고급",
+            bpm: 85,
+            start: 60
+          }
+        ]
+      },
+      {
+        id: "14",
+        title: "NO.14 음의 계단은 두렵지 않아! ~내추럴 마이너 스케일~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 110,
+            start: 31
+          },
+          {
+            title: "고급",
+            bpm: 110,
+            start: 47
+          }
+        ]
+      },
+      {
+        id: "15",
+        title: "NO.15 음의 계단은 두렵지 않아! ~펜타토닉 스케일~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 120,
+            start: 30
+          },
+          {
+            title: "고급",
+            bpm: 120,
+            start: 45
+          }
+        ]
+      },
+      {
+        id: "16",
+        title: "NO.16 이런 게 바로 기초 테크닉 ~해머링~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 115,
+            start: 30
+          },
+          {
+            title: "고급",
+            bpm: 130,
+            start: 45
+          }
+        ]
+      },
+      {
+        id: "17",
+        title: "NO.17 이런 게 바로 기초 테크닉 ~풀링~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 90,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 90,
+            start: 33
+          },
+          {
+            title: "고급",
+            bpm: 100,
+            start: 52
+          }
+        ]
+      },
+      {
+        id: "18",
+        title: "NO.18 이런 게 바로 기초 테크닉 ~슬라이드~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 115,
+            start: 30
+          },
+          {
+            title: "고급",
+            bpm: 130,
+            start: 46
+          }
+        ]
+      },
+      {
+        id: "19",
+        title: "NO.19 10년을 쳐도 못할 수 있다 ~초킹①~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 90,
+            start: 15
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 33
+          },
+          {
+            title: "고급",
+            bpm: 100,
             start: 51
           }
         ]
+      },
+      {
+        id: "20",
+        title: "NO.20 10년을 쳐도 못할 수 있다 ~초킹②~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 110,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 80,
+            start: 15
+          },
+          {
+            title: "중급",
+            bpm: 90,
+            start: 36
+          },
+          {
+            title: "고급",
+            bpm: 95,
+            start: 55
+          }
+        ]
+      },
+      {
+        id: "21",
+        title: "NO.21 10년을 쳐도 못할 수 있다 ~초킹③~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 80,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 90,
+            start: 35
+          },
+          {
+            title: "고급",
+            bpm: 95,
+            start: 54
+          }
+        ]
+      },
+      {
+        id: "22",
+        title: "NO.22 바로 이게 원조 속주",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 120,
+            start: 31
+          },
+          {
+            title: "고급",
+            bpm: 120,
+            start: 46
+          }
+        ]
+      },
+      {
+        id: "23",
+        title: "NO.23 캐논에 도전해보자! ~멜로디 연주편~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 135,
+            start: 0,
+            end: 54
+          },
+          {
+            title: "인트로",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "A",
+            bpm: 135,
+            start: 18.1
+          },
+          {
+            title: "B+End",
+            bpm: 135,
+            start: 32.2
+          }
+        ]
+      },
+      {
+        id: "24",
+        title: "NO.24 지옥의 입구가 바로 앞이다! ~레가토~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 31
+          },
+          {
+            title: "고급",
+            bpm: 115,
+            start: 48
+          }
+        ]
+      },
+      {
+        id: "25",
+        title: "NO.25 지옥의 입구가 바로 앞이다! ~태핑~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 150,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 12
+          },
+          {
+            title: "중급",
+            bpm: 150,
+            start: 29
+          },
+          {
+            title: "고급",
+            bpm: 130,
+            start: 42
+          }
+        ]
+      },
+      {
+        id: "26",
+        title: "NO.26 지옥의 입구가 바로 앞이다! ~머신건 피킹~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 150,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 12
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 29
+          },
+          {
+            title: "고급",
+            bpm: 115,
+            start: 47
+          }
+        ]
+      },
+      {
+        id: "27",
+        title: "NO.27 지옥의 입구가 바로 앞이다! ~스키핑~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 34
+          },
+          {
+            title: "고급",
+            bpm: 100,
+            start: 53
+          }
+        ]
+      },
+      {
+        id: "28",
+        title: "NO.28 지옥의 입구가 바로 앞이다! ~이코노미 피킹~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 130,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 31
+          },
+          {
+            title: "고급",
+            bpm: 105,
+            start: 48
+          }
+        ]
+      },
+      {
+        id: "29",
+        title: "NO.29 지옥의 입구가 바로 앞이다! ~스위프 피킹~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 75,
+            start: 13
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 35
+          },
+          {
+            title: "고급",
+            bpm: 110,
+            start: 52
+          }
+        ]
+      },
+      {
+        id: "30",
+        title: "NO.30 캐논에 도전해보자! ~테크니컬편~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 135,
+            start: 0,
+            end: 54
+          },
+          {
+            title: "인트로",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "A",
+            bpm: 135,
+            start: 18.1
+          },
+          {
+            title: "B+End",
+            bpm: 135,
+            start: 32.2
+          }
+        ]
       }
+      // {
+      //   id: "31",
+      //   title: "NO.31 초보가 사랑을 담아서",
+      //   hasBackingTrack: true,
+      //   lessons: [
+      //     {
+      //       title: "전체",
+      //       bpm: 135,
+      //       start: 0,
+      //       end: 54
+      //     },
+      //     {
+      //       title: "인트로",
+      //       bpm: 135,
+      //       start: 0
+      //     },
+      //     {
+      //       title: "A",
+      //       bpm: 135,
+      //       start: 18.1
+      //     },
+      //     {
+      //       title: "B+End",
+      //       bpm: 135,
+      //       start: 32.2
+      //     }
+      //   ]
+      // }
     ]
   }
 ];

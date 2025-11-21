@@ -6,7 +6,7 @@ import { Lesson } from "components/Lesson";
 import { BookData, ChapterData, books } from "data";
 import _ from "lodash";
 import { useEffect, useMemo } from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { ButtonGroup, Card, Col, Container, Row } from "react-bootstrap";
 import { Link, useRouteMatch } from "react-router-dom";
 import "./Chapter.scss";
 
@@ -66,25 +66,27 @@ export const Chapter = () => {
             </Link>
             <h1 className="text-xl font-bold">{chapterData?.title}</h1>
             <div>
-              <Link
-                to={`/${bookData?.id}/${Number(chapterData?.id!) - 1}`}
-                className={classNames(
-                  "btn btn-outline-secondary btn-sm",
-                  Number(chapterData?.id!) === 1 && "disabled disabled-link"
-                )}
-              >
-                <NavigateBeforeIcon fontSize="small" />
-              </Link>
-              <Link
-                to={`/${bookData?.id}/${Number(chapterData?.id!) + 1}`}
-                className={classNames(
-                  "btn btn-outline-secondary btn-sm",
-                  Number(chapterData?.id!) === bookData?.chapters.length &&
-                    "disabled disabled-link"
-                )}
-              >
-                <NavigateNextIcon fontSize="small" />
-              </Link>
+              <ButtonGroup>
+                <Link
+                  to={`/${bookData?.id}/${Number(chapterData?.id!) - 1}`}
+                  className={classNames(
+                    "btn btn-outline-secondary btn-sm",
+                    Number(chapterData?.id!) === 1 && "disabled disabled-link"
+                  )}
+                >
+                  <NavigateBeforeIcon fontSize="small" />
+                </Link>
+                <Link
+                  to={`/${bookData?.id}/${Number(chapterData?.id!) + 1}`}
+                  className={classNames(
+                    "btn btn-outline-secondary btn-sm",
+                    Number(chapterData?.id!) === bookData?.chapters.length &&
+                      "disabled disabled-link"
+                  )}
+                >
+                  <NavigateNextIcon fontSize="small" />
+                </Link>
+              </ButtonGroup>
             </div>
           </div>
         </Col>
@@ -92,7 +94,7 @@ export const Chapter = () => {
         {chapterData?.lessons.map((lesson, i) => {
           return (
             <Col
-              key={`${bookData?.id}_${chapterData.id}_${lesson.start}`}
+              key={`${bookData?.id}_${chapterData.id}_${lesson.title}_${i}`}
               xs="12"
               sm="10"
               md="8"
@@ -105,7 +107,9 @@ export const Chapter = () => {
                   <Card.Subtitle className="mb-2 text-muted text-left">
                     {`BPM ${lesson.bpm}  (CD ${getTimeString(
                       lesson.start
-                    )} ~ ${getTimeString(chapterData?.lessons[i + 1]?.start)})`}
+                    )} ~ ${getTimeString(
+                      lesson.end ?? chapterData?.lessons[i + 1]?.start
+                    )})`}
                   </Card.Subtitle>
                   <Lesson
                     bookId={bookData?.id ?? ""}
@@ -113,7 +117,7 @@ export const Chapter = () => {
                     lessonIndex={i}
                     lessonData={{
                       ...lesson,
-                      end: chapterData?.lessons[i + 1]?.start
+                      end: lesson.end ?? chapterData?.lessons[i + 1]?.start
                     }}
                     hasBackingTrack={chapterData.hasBackingTrack ?? false}
                   />

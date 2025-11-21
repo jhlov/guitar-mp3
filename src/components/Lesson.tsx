@@ -13,7 +13,7 @@ export const Lesson = (props: Props) => {
   return (
     <div className="text-left">
       <AudioPlayer
-        title={"example"}
+        title={"모범 연주"}
         src={`/guitar-mp3/assets/mp3/${props.bookId}/${props.chapterId}.mp3`}
         lessonData={props.lessonData}
       />
@@ -21,7 +21,7 @@ export const Lesson = (props: Props) => {
       {props.hasBackingTrack && (
         <div className="mt-3">
           <AudioPlayer
-            title={"drum"}
+            title={"반주"}
             src={`/guitar-mp3/assets/mp3/${props.bookId}/${props.chapterId}-drum.mp3`}
             lessonData={props.lessonData}
           />
