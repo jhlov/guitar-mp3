@@ -72,11 +72,11 @@ export const AudioPlayer = (props: Props) => {
           <div>
             <ButtonGroup>
               <ToggleButton
-                id={`repeat_${props.title}_${props.src}_${props.lessonData.start}`}
+                id={`repeat_${props.title}_${props.src}_${props.lessonData.title}`}
                 type="checkbox"
                 variant="outline-success"
                 checked={isRepeat}
-                value={`repeat_${props.title}_${props.src}_${props.lessonData.start}`}
+                value={`repeat_${props.title}_${props.src}_${props.lessonData.title}`}
                 onChange={e => setIsRepeat(e.target.checked)}
               >
                 <RepeatIcon fontSize="small" />
@@ -89,7 +89,7 @@ export const AudioPlayer = (props: Props) => {
               {[0.5, 0.6, 0.7, 0.8, 0.9, 1].map(item => {
                 return (
                   <Button
-                    key={`radio_${props.title}_${props.src}_${props.lessonData.start}_${item}`}
+                    key={`radio_${props.title}_${props.src}_${props.lessonData.title}_${item}`}
                     variant="outline-secondary"
                     className={classNames({ active: item === speed })}
                     onClick={() => onChangeSpeed(item)}

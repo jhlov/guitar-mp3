@@ -3098,6 +3098,206 @@ export const books: BookData[] = [
             start: 83.368
           }
         ]
+      },
+      {
+        id: "32",
+        title: "NO.32 지옥의 보충대로 입소하라!",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 160,
+            start: 0,
+            end: 75
+          },
+          {
+            title: "인트로",
+            bpm: 160,
+            start: 0
+          },
+          {
+            title: "A",
+            bpm: 160,
+            start: 16.5
+          },
+          {
+            title: "B",
+            bpm: 160,
+            start: 28.5
+          },
+          {
+            title: "C",
+            bpm: 160,
+            start: 40.5
+          },
+          {
+            title: "D",
+            bpm: 160,
+            start: 52.5
+          },
+          {
+            title: "End",
+            bpm: 160,
+            start: 63
+          }
+        ]
+      },
+      {
+        id: "33",
+        title: "NO.33 열반과 해탈이 저 너머에…",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 170,
+            start: 0,
+            end: 72
+          },
+          {
+            title: "인트로",
+            bpm: 170,
+            start: 0
+          },
+          {
+            title: "A",
+            bpm: 170,
+            start: 16.941
+          },
+          {
+            title: "B",
+            bpm: 170,
+            start: 28.235
+          },
+          {
+            title: "C",
+            bpm: 170,
+            start: 39.529
+          },
+          {
+            title: "End",
+            bpm: 170,
+            start: 50.824
+          }
+        ]
+      },
+      {
+        id: "34",
+        title: "NO.34 험난한 수련의 관문",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 170,
+            start: 0,
+            end: 55
+          },
+          {
+            title: "인트로",
+            bpm: 170,
+            start: 0
+          },
+          {
+            title: "A",
+            bpm: 170,
+            start: 16.941
+          },
+          {
+            title: "B",
+            bpm: 170,
+            start: 28.235
+          },
+          {
+            title: "C",
+            bpm: 170,
+            start: 40.235
+          },
+          {
+            title: "End",
+            bpm: 170,
+            start: 45.882
+          }
+        ]
+      },
+      {
+        id: "35",
+        title: "NO.35 자학을 즐겨라!",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 120,
+            start: 0,
+            end: 94
+          },
+          {
+            title: "인트로 1",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "인트로 2",
+            bpm: 120,
+            start: 20
+          },
+          {
+            title: "A",
+            bpm: 120,
+            start: 38
+          },
+          {
+            title: "B",
+            bpm: 120,
+            start: 54
+          },
+          {
+            title: "End",
+            bpm: 120,
+            start: 74
+          }
+        ]
+      },
+      {
+        id: "36",
+        title: "NO.36 지옥의 심장을 공략하라!",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 135,
+            start: 0,
+            end: 85
+          },
+          {
+            title: "인트로 1",
+            bpm: 135,
+            start: 0
+          },
+          {
+            title: "인트로 2",
+            bpm: 135,
+            start: 17.778
+          },
+          {
+            title: "A",
+            bpm: 135,
+            start: 28.444
+          },
+          {
+            title: "B",
+            bpm: 135,
+            start: 46.222
+          },
+          {
+            title: "C",
+            bpm: 135,
+            start: 60.444
+          },
+          {
+            title: "End",
+            bpm: 135,
+            start: 74.667
+          }
+        ]
       }
     ]
   }
