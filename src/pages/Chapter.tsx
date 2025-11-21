@@ -1,6 +1,6 @@
-import { ArrowForward } from "@mui/icons-material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import HomeIcon from "@mui/icons-material/Home";
+import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import classNames from "classnames";
 import { Lesson } from "components/Lesson";
 import { BookData, ChapterData, books } from "data";
@@ -62,7 +62,7 @@ export const Chapter = () => {
               to={`/${bookData?.id}`}
               className="btn btn-outline-secondary btn-sm"
             >
-              <HomeIcon fontSize="small" />
+              <ArrowBackIcon fontSize="small" />
             </Link>
             <h1 className="text-xl font-bold">{chapterData?.title}</h1>
             <div>
@@ -73,7 +73,7 @@ export const Chapter = () => {
                   Number(chapterData?.id!) === 1 && "disabled disabled-link"
                 )}
               >
-                <ArrowBackIcon fontSize="small" />
+                <NavigateBeforeIcon fontSize="small" />
               </Link>
               <Link
                 to={`/${bookData?.id}/${Number(chapterData?.id!) + 1}`}
@@ -83,7 +83,7 @@ export const Chapter = () => {
                     "disabled disabled-link"
                 )}
               >
-                <ArrowForward fontSize="small" />
+                <NavigateNextIcon fontSize="small" />
               </Link>
             </div>
           </div>

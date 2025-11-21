@@ -1,7 +1,7 @@
 import HomeIcon from "@mui/icons-material/Home";
 import { BookData, books } from "data";
 import { useMemo } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { ButtonGroup, Col, Container, Row } from "react-bootstrap";
 import { Link, useRouteMatch } from "react-router-dom";
 
 interface Params {
@@ -29,20 +29,20 @@ export const Book = () => {
           </div>
         </Col>
 
-        {bookData?.chapters.map(chapter => {
-          return (
-            <Col xs="12" sm="8" md="6">
-              <div className="d-grid">
+        <Col xs="12" sm="8" md="6">
+          <ButtonGroup vertical className="d-flex">
+            {bookData?.chapters.map(chapter => {
+              return (
                 <Link
                   to={`/${bookData.id}/${chapter.id}`}
                   className="btn btn-outline-primary btn-lg"
                 >
                   {chapter.title}
                 </Link>
-              </div>
-            </Col>
-          );
-        })}
+              );
+            })}
+          </ButtonGroup>
+        </Col>
       </Row>
     </Container>
   );
