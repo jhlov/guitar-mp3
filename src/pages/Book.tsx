@@ -1,3 +1,4 @@
+import HomeIcon from "@mui/icons-material/Home";
 import { BookData, books } from "data";
 import { useMemo } from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -17,8 +18,17 @@ export const Book = () => {
 
   return (
     <Container className="py-5">
-      <h1 className="mb-3 text-xl font-bold mb-5">{bookData?.title}</h1>
       <Row className="flex-col items-center">
+        <Col xs="12" sm="8" md="6">
+          <div className="d-flex justify-between mb-5 items-center">
+            <Link to={"/"} className="btn btn-outline-secondary btn-sm">
+              <HomeIcon fontSize="small" />
+            </Link>
+            <h1 className="text-xl font-bold">{bookData?.title}</h1>
+            <div style={{ width: "16px" }} />
+          </div>
+        </Col>
+
         {bookData?.chapters.map(chapter => {
           return (
             <Col xs="12" sm="8" md="6">

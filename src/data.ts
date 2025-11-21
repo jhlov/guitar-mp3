@@ -2238,5 +2238,65 @@ export const books: BookData[] = [
         ]
       }
     ]
+  },
+  {
+    id: "hell-basic",
+    title: "지옥의 베이직 기타 트레이닝",
+    chapters: [
+      {
+        id: "1",
+        title: "No.1 - 루트에 사랑을 담아서 ~개방현~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 100,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 100,
+            start: 17
+          },
+          {
+            title: "중급",
+            bpm: 100,
+            start: 38
+          },
+          {
+            title: "고급",
+            bpm: 100,
+            start: 59
+          }
+        ]
+      },
+      {
+        id: "2",
+        title: "No.2 - 루트에 사랑을 담아서 ~8분음~",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "프레이즈",
+            bpm: 120,
+            start: 0
+          },
+          {
+            title: "초급",
+            bpm: 120,
+            start: 14
+          },
+          {
+            title: "중급",
+            bpm: 120,
+            start: 33
+          },
+          {
+            title: "고급",
+            bpm: 120,
+            start: 51
+          }
+        ]
+      }
+    ]
   }
 ];
