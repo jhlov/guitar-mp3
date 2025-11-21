@@ -3055,35 +3055,50 @@ export const books: BookData[] = [
             start: 32.2
           }
         ]
+      },
+      {
+        id: "31",
+        title: "NO.31 초보가 사랑을 담아서",
+        hasBackingTrack: true,
+        lessons: [
+          {
+            title: "전체",
+            bpm: 190,
+            start: 0,
+            end: 101
+          },
+          {
+            title: "인트로",
+            bpm: 190,
+            start: 0
+          },
+          {
+            title: "A",
+            bpm: 190,
+            start: 13.895
+          },
+          {
+            title: "B",
+            bpm: 190,
+            start: 35.368
+          },
+          {
+            title: "C",
+            bpm: 190,
+            start: 50.526
+          },
+          {
+            title: "D",
+            bpm: 190,
+            start: 70.737
+          },
+          {
+            title: "End",
+            bpm: 190,
+            start: 83.368
+          }
+        ]
       }
-      // {
-      //   id: "31",
-      //   title: "NO.31 초보가 사랑을 담아서",
-      //   hasBackingTrack: true,
-      //   lessons: [
-      //     {
-      //       title: "전체",
-      //       bpm: 135,
-      //       start: 0,
-      //       end: 54
-      //     },
-      //     {
-      //       title: "인트로",
-      //       bpm: 135,
-      //       start: 0
-      //     },
-      //     {
-      //       title: "A",
-      //       bpm: 135,
-      //       start: 18.1
-      //     },
-      //     {
-      //       title: "B+End",
-      //       bpm: 135,
-      //       start: 32.2
-      //     }
-      //   ]
-      // }
     ]
   }
 ];
