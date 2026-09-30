@@ -42,10 +42,14 @@ export const AudioPlayer = (props: Props) => {
     const audio = audioRef.current;
     if (!audio) return;
 
+    audio.pause();
+    setIsPlaying(false);
+    audio.src = props.src;
     audio.currentTime = start;
     setCurrentTime(start);
-    audio.volume = volume;
+    audio.volume = isMuted ? 0 : volume;
     audio.playbackRate = speed;
+    audio.load();
 
     const handleLoadedMetadata = () => {
       setDuration(end ?? audio.duration);
@@ -59,11 +63,12 @@ export const AudioPlayer = (props: Props) => {
     audio.addEventListener("pause", handlePause);
 
     return () => {
+      audio.pause();
       audio.removeEventListener("loadedmetadata", handleLoadedMetadata);
       audio.removeEventListener("play", handlePlay);
       audio.removeEventListener("pause", handlePause);
     };
-  }, [props.src, start, end, speed, volume]);
+  }, [props.src, start, end, isMuted, speed, volume]);
 
   const onTimeupdate = useCallback(() => {
     const audio = audioRef.current;
@@ -113,7 +118,6 @@ export const AudioPlayer = (props: Props) => {
     if (isPlaying) {
       audio.pause();
     } else {
-      // If we are at or past the end, rewind to start
       if (!_.isNil(end) && audio.currentTime >= end) {
         audio.currentTime = start;
       }
@@ -189,10 +193,8 @@ export const AudioPlayer = (props: Props) => {
           : "bg-slate-900/90 border-amber-500/30 shadow-lg shadow-amber-950/20"
       }`}
     >
-      {/* Hidden audio element */}
-      <audio ref={audioRef} preload="metadata">
-        <source src={props.src} type="audio/mp3" />
-      </audio>
+      {/* Direct source on audio element for reliable loading */}
+      <audio ref={audioRef} src={props.src} preload="metadata" />
 
       {/* Header Info */}
       <div className="flex items-center justify-between mb-3">
@@ -216,7 +218,7 @@ export const AudioPlayer = (props: Props) => {
                 : "bg-amber-500/20 text-amber-300 border border-amber-500/30"
             }`}
           >
-            {props.isBacking ? "DRUM / BACKING" : "SOLO / LEAD"}
+            {props.isBacking ? "DRUM / MR" : "GUITAR + MR"}
           </span>
         </div>
 
