@@ -1,17 +1,29 @@
 @import "~bootstrap/scss/bootstrap";
 
 .App {
-  text-align: center;
-  font-family: "Titillium Web", "Noto Sans KR", sans-serif;
+  min-height: 100vh;
+  background-color: #0a0e17;
+  color: #f1f5f9;
+  font-family: "Noto Sans KR", "Titillium Web", sans-serif;
+  display: flex;
+  flex-direction: column;
 
-  .mobile-container {
-    padding: 0 15px;
+  /* Global dark-mode card override for Bootstrap Cards if used */
+  .card {
+    background-color: #121926;
+    border: 1px solid #25334d;
+    color: #f1f5f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 
-    @include media-breakpoint-up(sm) {
-      width: 500px;
-      min-height: 100vh;
-      margin: 0 auto;
-      border: 1px solid lightgrey;
+    &:hover {
+      border-color: #3b82f6;
     }
   }
+
+  .text-muted {
+    color: #94a3b8 !important;
+  }
 }
+
